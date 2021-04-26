@@ -1,1 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&display=swap');
+
+.menu-bar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.bars {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    padding: 30px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    transition: all 5s;
+}
+
+.menu ul {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Antonio", sans-serif;
+    opacity: 0.8;
+    font-size: 36px;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: #81b214;
+}
