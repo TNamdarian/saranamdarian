@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&display=swap');
 
-/* --------------------------------------------------Navbar */
-#menu {
+/* --------------------------------------------------Header */
+.white-section {
+    background-color: #fff;
+}
+/* --------------------------------------------------Header */
+#header {
     font-family: "Antonio", sans-serif;
     text-align: center;
 }
@@ -43,6 +47,30 @@
     font-size: 36px;
 
 }
+
+/* --------------------------------------------------Footer */
+#footer p {
+    color: grey;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color:#333;
+}
+.social-networks i:hover {
+    color: #81b214;
+}
+#footer .container-fluid {
+    padding: 7% 15%;
+    text-align: center;
+}
+
 
 @media (max-width: 540px) {
     .nav-link {
