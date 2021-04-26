@@ -1,36 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&display=swap');
 
 .menu-bar {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    height: 14px;
-    margin-left: -10px;
-}
-
-.bars {
-    display: block;
+    height: 20px;
     width: 20px;
-    height: 3px;
-    background-color: #333;
-    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
-}
-
-.menu {
-    display: none;
-    width: 100%;
-    padding: 30px 10px 50px;
-    margin: 0 auto;
+    padding-bottom: 20px;
+    position: fixed;
     text-align: center;
-    background-color: #fff;
-    transition: all 5s;
-}
-
-.menu ul {
-    margin-bottom: 0;
+    position: absolute;
+    top: 20px;    
+    left: 50%;
 }
 
 .nav-link {
+    padding: 50px;
     color: #333;
     text-transform: uppercase;
     font-family: "Antonio", sans-serif;
@@ -42,4 +24,7 @@
     text-decoration: none;
     opacity: 1;
     color: #81b214;
+}
+.logo {
+padding: 30px;
 }
