@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&display=swap');
 
+/* --------------------------------------------------Navbar */
+#menu {
+    font-family: "Antonio", sans-serif;
+    text-align: center;
+}
+
 .menu-bar {
     text-align: center;
     position: relative;
-    top: 20px;    
+    top: 20px;
     left: 50%;
+    height: 14px;
+    margin-left: -10px;
 }
+
 .bars {
     display: block;
     width: 20px;
-    height: 3px;    
+    height: 3px;
     background-color: #333;
     box-shadow: 0 5px 0 #333, 0 10px 0 #333;
 }
 
 .nav-link {
-    padding: 50px;
+    padding: 50px 20px;
     color: #333;
     text-transform: uppercase;
-    font-family: "Antonio", sans-serif;
     opacity: 0.8;
     font-size: 48px;
 }
@@ -28,9 +36,16 @@
     opacity: 1;
     color: #81b214;
 }
+
 .logo {
-padding: 30px;
-font-family: "Antonio", sans-serif;
-font-weight: 700;
-font-size: 36px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+@media (max-width: 540px) {
+    .nav-link {
+        font-size: 24px;
+    }
 }
