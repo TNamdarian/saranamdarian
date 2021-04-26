@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&display=swap');
 
-.menu-bar, .navbar-toggler-icon {
-    padding-bottom: 40px;
+.menu-bar {
     text-align: center;
     position: relative;
     top: 20px;    
     left: 50%;
 }
-.navbar-toggler-icon {
-    height: 40px;
-    width: 40px;
+.bars {
+    display: block;
+    width: 20px;
+    height: 3px;    
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
 }
 
 .nav-link {
-    padding-top: 50px 20px 50px;
+    padding: 50px;
     color: #333;
     text-transform: uppercase;
     font-family: "Antonio", sans-serif;
