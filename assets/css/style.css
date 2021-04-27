@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
 /* --------------------------------------------------Sections */
 .white-section {
@@ -13,7 +13,7 @@
 
 .navbar-toggler {
     position: relative;
-    left: 47%;
+    left: 48%;
     border: transparent;
     padding: 3px;
 }
@@ -40,24 +40,68 @@
 }
 
 /* --------------------------------------------------About */
-.about-image {
+
+.designer-image {
     width: 400px;
-    height: 500px;
-    padding-left: 20%;
+    height: 600px;
+    padding-left: 30%;
+    background: url("../images/Sara-Namdarian-Interior-Designer.jpg") no-repeat center center;
+    animation-name: designer-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+.designer-outer {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+@keyframes designer-zoom { 
+  from{
+ transform: scale(1);
+  }
+  to{ 
+    transform: scale(1.1);
+  }
+}
+
 
 #about .container-fluid {
     padding: 7% 15%;
 }
+
 .big-heading {
-    font-size: 64px;
+    font-size: 58px;
     text-transform: uppercase;
-    font-family: "Antonio", sans-serif;
     font-weight: 700;
+    font-family: "Roboto", sans-serif;
 }
-p i {
+
+P {
+    font-weight: 200;
+    line-height: 1.5;
+    font-family: "roboto", sans-serif;
+}
+
+.quote-right {
     font-size: 56px;
+    position: relative;
+    left: 5%;
+    top: 5%;
 }
+
+.quote-left {
+    font-size: 56px;
+    position: relative;
+    left: 35%;
+    top: 5%;
+}
+
+.initial {
+    font-size: 64px;
+}
+
 /* --------------------------------------------------Footer */
 #footer p {
     color: grey;
