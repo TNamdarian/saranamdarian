@@ -44,11 +44,13 @@
 .designer-image {
     width: 400px;
     height: 600px;
-    padding-left: 30%;
-    background: url("../images/Sara-Namdarian-Interior-Designer.jpg") no-repeat center center;
+    background: url("../images/Sara-Namdarian-Interior-Designer.jpg") no-repeat;
     animation-name: designer-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    width: 100%;
+    position: absolute;
+    left: 10%;
 }
 
 .designer-outer {
@@ -74,8 +76,9 @@
 .big-heading {
     font-size: 58px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
 }
 
 P {
@@ -87,15 +90,17 @@ P {
 .quote-right {
     font-size: 56px;
     position: relative;
-    left: 5%;
+    left: 45%;
     top: 5%;
+    color: #81b214;
 }
 
 .quote-left {
     font-size: 56px;
     position: relative;
-    left: 35%;
+    left: 45%;
     top: 5%;
+    color: #81b214;
 }
 
 .initial {
