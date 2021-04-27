@@ -15,6 +15,7 @@
     position: relative;
     left: 47%;
     border: transparent;
+    padding: 3px;
 }
 
 .nav-link {
@@ -32,21 +33,30 @@
 }
 
 .logo {
-    padding: 20px;
+    padding: 30px;
     font-weight: 700;
     font-size: 36px;
     margin-bottom: 0;
 }
+
 /* --------------------------------------------------About */
 .about-image {
-    width: 60%;
-    position: absolute;
-    left: 65%;
-    bottom: 17%;
-    max-width: 21%;
+    width: 400px;
+    height: 500px;
+    padding-left: 20%;
 }
-#about {
-    padding: 10% 15%;
+
+#about .container-fluid {
+    padding: 7% 15%;
+}
+.big-heading {
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+}
+p i {
+    font-size: 56px;
 }
 /* --------------------------------------------------Footer */
 #footer p {
