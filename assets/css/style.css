@@ -11,7 +11,8 @@
 }
 .navbar-toggler {
     position: relative;
-    left: 48%;
+    left: 47%;
+    border: transparent;
 }
 
 .nav-link {
@@ -42,6 +43,9 @@
 
 .social-networks li {
     display: inline;
+}
+.social-networks {
+    padding-left: 0;
 }
 
 .social-networks i {
