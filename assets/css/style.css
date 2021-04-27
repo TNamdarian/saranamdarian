@@ -4,11 +4,13 @@
 .white-section {
     background-color: #fff;
 }
+
 /* --------------------------------------------------Header */
 #header {
     font-family: "Antonio", sans-serif;
     text-align: center;
 }
+
 .navbar-toggler {
     position: relative;
     left: 47%;
@@ -33,7 +35,7 @@
     padding: 20px;
     font-weight: 700;
     font-size: 36px;
-
+    margin-bottom: 0;
 }
 
 /* --------------------------------------------------Footer */
@@ -44,6 +46,7 @@
 .social-networks li {
     display: inline;
 }
+
 .social-networks {
     padding-left: 0;
 }
@@ -52,11 +55,13 @@
     font-size: 250%;
     margin: 1%;
     padding: 2%;
-    color:#333;
+    color: #333;
 }
+
 .social-networks i:hover {
     color: #81b214;
 }
+
 #footer .container-fluid {
     padding: 7% 15%;
     text-align: center;
