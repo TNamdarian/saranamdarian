@@ -9,22 +9,9 @@
     font-family: "Antonio", sans-serif;
     text-align: center;
 }
-
-.menu-bar {
-    text-align: center;
+.navbar-toggler {
     position: relative;
-    top: 20px;
-    left: 50%;
-    height: 14px;
-    margin-left: -10px;
-}
-
-.bars {
-    display: block;
-    width: 20px;
-    height: 3px;
-    background-color: #333;
-    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+    left: 46%;
 }
 
 .nav-link {
