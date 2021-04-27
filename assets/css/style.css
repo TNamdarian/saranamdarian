@@ -18,7 +18,7 @@
 }
 
 .nav-link {
-    padding: 50px 20px;
+    padding: 40px 20px;
     color: #333;
     text-transform: uppercase;
     opacity: 0.8;
@@ -37,7 +37,17 @@
     font-size: 36px;
     margin-bottom: 0;
 }
-
+/* --------------------------------------------------About */
+.about-image {
+    width: 60%;
+    position: absolute;
+    left: 65%;
+    bottom: 17%;
+    max-width: 21%;
+}
+#about {
+    padding: 10% 15%;
+}
 /* --------------------------------------------------Footer */
 #footer p {
     color: grey;
