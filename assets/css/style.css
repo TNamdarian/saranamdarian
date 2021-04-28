@@ -141,8 +141,11 @@ P {
 }
 
 /* --------------------------------------------------Footer */
+#footer {
+    font-family: "Antonio", sans-serif;
+}
 #footer p {
-    color: grey;
+    margin-bottom: 1px;
 }
 
 .social-networks li {
@@ -154,7 +157,7 @@ P {
 }
 
 .social-networks i {
-    font-size: 250%;
+    font-size: 180%;
     margin: 1%;
     padding: 2%;
     color: #333;
@@ -165,16 +168,21 @@ P {
 }
 
 #footer .container-fluid {
-    padding: 7% 15%;
+    padding: 5% 3% 0px;
     text-align: center;
 }
-.contact-details {
-    font-family: Antonio;
-    font-size:15px;
-    font-weight: 100;
-    color: #333;
+
+.contact li {
+    list-style: none;
+     text-align: left;
 }
-/* Media Quaries  */
+/* --------------------------------------------------Copyright */
+.copyright p {
+    padding: 20px;
+     font-family: "Antonio", sans-serif;
+     color: gray;
+}
+/* --------------------------------------------------Media Quaries  */
 @media (max-width: 540px) {
     .nav-link {
         font-size: 24px;
