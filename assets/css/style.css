@@ -130,12 +130,14 @@ P {
 #promotion3 {
     background-image: url("../images/dining-room-promotion-image3.jpg");
 }
+
 /* --------------------------------------------------Reasons */
 .reasons {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 0%;
 }
+
 .feature-title {
     font-size: 1.5rem;
 }
@@ -144,8 +146,10 @@ P {
 #footer {
     font-family: "Antonio", sans-serif;
 }
+
 #footer p {
     margin-bottom: 1px;
+    font-family: "Antonio", sans-serif;
 }
 
 .social-networks li {
@@ -174,14 +178,21 @@ P {
 
 .contact li {
     list-style: none;
-     text-align: left;
+    text-align: center;
 }
+
+.contact .email {
+    text-decoration: none;
+}
+
 /* --------------------------------------------------Copyright */
 .copyright p {
     padding: 20px;
-     font-family: "Antonio", sans-serif;
-     color: gray;
+    font-family: "Antonio", sans-serif;
+    color: gray;
+    text-align: center;
 }
+
 /* --------------------------------------------------Media Quaries  */
 @media (max-width: 540px) {
     .nav-link {
