@@ -45,7 +45,7 @@
     height: 600px;
     background: url("../images/Sara-Namdarian-Interior-Designer.jpg") no-repeat;
     animation-name: designer-zoom;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
     width: 100%;
     position: absolute;
@@ -58,14 +58,17 @@
     overflow: hidden;
     position: relative;
 }
-@keyframes designer-zoom { 
-  from{
- transform: scale(1);
-  }
-  to{ 
-    transform: scale(1.1);
-  }
+
+@keyframes designer-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
+
 /* --------------------------------------------------About */
 #about .container-fluid {
     padding: 7% 15%;
@@ -77,6 +80,7 @@
     font-weight: 900;
     font-family: "Roboto", sans-serif;
     margin-bottom: 0;
+    color: #81b214;
 }
 
 P {
@@ -103,25 +107,37 @@ P {
 
 .initial {
     font-size: 64px;
-font-weight: 700;
+    font-weight: 700;
 }
+
 /* /* --------------------------------------------------Promostional Iamges  */
 .promotion {
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #promotion1 {
-  background-image: url("../images/bedroom-promotion-image1.jpg");
+    background-image: url("../images/bedroom-promotion-image1.jpg");
 }
+
 #promotion2 {
-  background-image: url("../images/Food-court-promotion-image2.jpg");
+    background-image: url("../images/Food-court-promotion-image2.jpg");
 }
+
 #promotion3 {
-  background-image: url("../images/dining-room-promotion-image3.jpg");
+    background-image: url("../images/dining-room-promotion-image3.jpg");
+}
+/* --------------------------------------------------Reasons */
+.reasons {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0%;
+}
+.feature-title {
+    font-size: 1.5rem;
 }
 
 /* --------------------------------------------------Footer */
