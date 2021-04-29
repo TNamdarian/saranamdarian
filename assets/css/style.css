@@ -40,6 +40,9 @@
 }
 
 /* --------------------------------------------------Dieginer Image And Animation  */
+#image{
+    padding-left: 60px;
+}
 .designer-image {
     width: 400px;
     height: 600px;
@@ -120,7 +123,7 @@ P {
 }
 
 #promotion1 {
-    background-image: url("../images/bedroom-promotion-image1.jpg");
+    background-image: url("../images/Hotel-lobby-promotion-image1.jpg");
 }
 
 #promotion2 {
@@ -129,6 +132,9 @@ P {
 
 #promotion3 {
     background-image: url("../images/dining-room-promotion-image3.jpg");
+}
+#promotion4 {
+    background-image: url("../images/bedroom-promotion-image4.jpg");
 }
 
 /* --------------------------------------------------Reasons */
@@ -140,7 +146,18 @@ P {
 .feature-title {
     font-size: 1.5rem;
 }
-
+/* --------------------------------------------------Contact section */
+.contact-me{
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-align: center;
+}
+.contact-me h1 {
+    padding-bottom: 20px;;
+}
+.btn {
+    background-color: #81b214;
+    color: #fff;
+}
 /* --------------------------------------------------Footer */
 #footer {
     font-family: "Antonio", sans-serif;
@@ -150,13 +167,17 @@ P {
     margin-bottom: 1px;
     font-family: "Antonio", sans-serif;
 }
+ ul {
+    margin-bottom: 0;
+ }
 
 .social-networks li {
     display: inline;
 }
 
 .social-networks {
-    padding-left: 0;
+    padding: 7% 15%;
+    text-align: center;
 }
 
 .social-networks i {
@@ -197,10 +218,17 @@ P {
     .nav-link {
         font-size: 24px;
     }
-    /* .reasons {
-        margin-bottom: 60px;
+
+    .reasons {
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
-    .quote-left {
+
+    .quote-right {
         margin-bottom: 25px;
-    } */
+    }
+    #image {
+        padding-left: 0px;
+        padding-right: 30px;
+    }
 }
