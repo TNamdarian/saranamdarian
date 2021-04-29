@@ -135,7 +135,6 @@ P {
 .reasons {
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 0%;
 }
 
 .feature-title {
@@ -194,8 +193,14 @@ P {
 }
 
 /* --------------------------------------------------Media Quaries  */
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
     .nav-link {
         font-size: 24px;
     }
+    /* .reasons {
+        margin-bottom: 60px;
+    }
+    .quote-left {
+        margin-bottom: 25px;
+    } */
 }
