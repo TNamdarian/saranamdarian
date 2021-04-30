@@ -15,7 +15,9 @@
     <!-- Icon -->
     <link rel="icon" href="assets/favicon.ico">
     <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
 
 </head>
 
@@ -50,25 +52,56 @@
             </div>
         </section>
     </header>
-    <section>
+    <section id="form">
+        <!-- Contact Sectoin -->
+        <div class="container-fluid">
+            <div class="row"></div>
+                <div class="col contact-me">
+                    <h1 class="text-uppercase">Do you have a project in mind?</h1>
+                    <h2>Let's talk!</h2>
+                </div>
+                    <section class="form-section">
+                        <form class="contact-form" action="saranamdarian@gmail.com" method="post">
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" type="text" name="first_name" placeholder="Name"
+                                required>
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last name"
+                                required>
+                            <label for="email">Email Address</label>
+                            <input class="text-input" id="email" type="email" name="email_address"
+                                placeholder="Your email" required>
+                            <label for="residential">Residential</label>
+                            <input type="radio" name="project-type" id="residential" value="residential" required>
+                            <label for="trail">Commercial</label>
+                            <input type="radio" name="project-type" id="commercial" value="commercial">
+                            <label for="both">Both</label>
+                            <input type="radio" name="project-type" id="both" value="both">
+                            <a class="btn btn-lg mt-5 ml-md-3 btn" href="contact.html">Book your free consultation
+                                now.</a>
+                        </form>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Footer -->
     <footer class="white-section" id="footer">
         <div class="container-fluid">
             <div class="row">
                 <!-- Address and Telephne no. -->
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <ul class="contact">
                         <li><i class="fas fa-map-marker-alt"></i></li>
-                        <li>1680 Lloyd Ave #1</li>
-                        <li>Vancouver, BC V7P 2N6</li>
-                        <li>Canada</li>
-                        <br>
+                        <li>Vancouver, Canada</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="contact">
                         <li><i class="fas fa-phone"></i></li>
                         <li>+1 778-898-5232</li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <!-- Social Media -->
                     <ul class="social-networks">
                         <li><a class="email" href="mailto:saranamdarian@gmail.com" target="_blank"><i
@@ -85,24 +118,19 @@
                                 target="_blank"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
+
             </div>
-        </div>
-        </div>
-        <div class="container-fluid copyright">
             <div class="row">
-                <!-- Copyright -->
-                <div class=" col d-inline-block">
-                    <p class="scroll-top">Top
+                <div class="col-12 d-inline-block">
+                    <p class="scroll-up">Top
                         <a href="#" aria-label="Go back to the top of the page">
                             <i class="fas fa-angle-up fa-lg scroll-up-icon" aria-hidden="true"></i></a>
                     </p>
                 </div>
-                <div>
+                <div class="col-12">
                     <p>©2021 Copyright | Sara Namdarian all rights reserved</p>
                 </div>
-                 
             </div>
-               
         </div>
     </footer>
 </body>
