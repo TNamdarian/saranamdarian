@@ -4,7 +4,13 @@
 .white-section {
     background-color: #fff;
 }
-
+.text-uppercase {
+    text-transform: uppercase;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 /* --------------------------------------------------Header */
 #header {
     font-family: "Antonio", sans-serif;
@@ -21,7 +27,6 @@
 .nav-link {
     padding: 40px 20px;
     color: #333;
-    text-transform: uppercase;
     opacity: 0.8;
     font-size: 48px;
 }
@@ -79,7 +84,6 @@
 
 .big-heading {
     font-size: 58px;
-    text-transform: uppercase;
     font-weight: 900;
     font-family: "Roboto", sans-serif;
     margin-bottom: 0;
@@ -123,7 +127,7 @@ P {
 }
 
 #promotion1 {
-    background-image: url("../images/Hotel-lobby-promotion-image1.jpg");
+    background-image: url("../images/Hotel-bar-promotion-image1.jpg");
 }
 
 #promotion2 {
@@ -203,6 +207,13 @@ P {
 
 .contact .email {
     text-decoration: none;
+}
+#footer .scroll-up-icon {
+	color: #81b214;
+}
+
+.scroll-top {
+    font-size: 20px;
 }
 
 /* --------------------------------------------------Copyright */
