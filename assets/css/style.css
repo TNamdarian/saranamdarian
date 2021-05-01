@@ -50,6 +50,9 @@
 .nav-item {
     text-align: center;
 }
+.navbar-toggler:focus {
+box-shadow: unset;
+}
 
 /* --------------------------------------------------Dieginer Image And Animation  */
 #image {
