@@ -50,8 +50,9 @@
 .nav-item {
     text-align: center;
 }
+
 .navbar-toggler:focus {
-box-shadow: unset;
+    box-shadow: unset;
 }
 
 /* --------------------------------------------------Dieginer Image And Animation  */
@@ -94,7 +95,7 @@ box-shadow: unset;
 }
 
 #consultation .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 8%;
 }
 
 .order-steps-container {
@@ -150,20 +151,21 @@ P {
 }
 
 #promotion1 {
-    background-image: url("../images/Hotel-bar-promotion-image1.jpg");
+    background-image: url("../images/promotion/Hotel-bar-promotion-image1.jpg");
 }
 
 #promotion2 {
-    background-image: url("../images/Food-court-promotion-image2.jpg");
+    background-image: url("../images/promotion/Food-court-promotion-image2.jpg");
 }
 
 #promotion3 {
-    background-image: url("../images/dining-room-promotion-image3.jpg");
+    background-image: url("../images/promotion/dining-room-promotion-image3.jpg");
 }
 
 #promotion4 {
-    background-image: url("../images/bedroom-promotion-image4.jpg");
+    background-image: url("../images/promotion/bedroom-promotion-image4.jpg");
 }
+
 #promotion5 {
     background-image: url("../images/staircase-promotion-image5.jpg");
 }
@@ -194,7 +196,7 @@ P {
     color: #fff;
 }
 
-/* --------------------------------------------------Contact Page */
+/* --------------------------------------------------Contact page and form section */
 .contact-me h1 {
     padding-top: 30px;
 }
@@ -208,8 +210,6 @@ P {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.8);
     width: 600px;
-    position: absolute;
-    left: 28%;
     padding: 30px;
 }
 
@@ -247,8 +247,7 @@ P {
 }
 
 .form-section {
-    clear: left;
-    background: url("../images/Hotel-lobby-promotion-image5.jpg");
+    background: url("../images/promotion/Hotel-lobby-promotion-image5.jpg");
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -328,8 +327,8 @@ ul {
     }
 
     .reasons {
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 60px;
+        margin-top:30px;
     }
 
     .quote-right {
@@ -340,4 +339,12 @@ ul {
         padding-left: 0px;
         padding-right: 30px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .big-heading {
+        font-size: 38px;
+        font-weight: 500;
+    }
+   
 }

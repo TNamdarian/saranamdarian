@@ -112,35 +112,63 @@
     <!-- Contact Sectoin -->
     <section id="form">
         <div class="container-fluid">
-            <div class="row"></div>
-            <div class="col contact-me">
-                <h1 class="text-uppercase">Do you have a project in mind?</h1>
-                <h2>Let's talk!</h2>
+            <div class="row">
+                <div class="col contact-me">
+                    <h1 class="text-uppercase">Do you have a project in mind?</h1>
+                    <h2>Let's talk!</h2>
+                </div>
             </div>
-            <section class="form-section">
-                <form class="contact-form" action="saranamdarian@gmail.com" method="post">
-                    <label for="fname">First Name</label>
-                    <input class="text-input" id="fname" type="text" name="first_name" placeholder="Name" required>
-                    <label for="lname">Last Name</label>
-                    <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last name" required>
-                    <label for="email">Email Address</label>
-                    <input class="text-input" id="email" type="email" name="email_address" placeholder="Your email"
-                        required>
-                    <label for="residential">Residential</label>
-                    <input type="radio" name="project-type" id="residential" value="residential" required>
-                    <label for="trail">Commercial</label>
-                    <input type="radio" name="project-type" id="commercial" value="commercial">
-                    <label for="both">Both</label>
-                    <input type="radio" name="project-type" id="both" value="both">
-                    <textarea name="projectsummary" id="projectsummary" rows="10" class="text-area"
-                        placeholder="Project description" required></textarea>
-                    <a class="btn btn-lg mt-5 ml-md-3 btn" href="contact.html">Book your free consultation
-                        now.</a>
-                </form>
+        </div>
+        <div class="container-fluid form-section">
+            <div class="row justify-content-around">
+                <div class="col-12">
+                    <form class="contact-form " action="saranamdarian@gmail.com" method="post">
+                        <div class="form-group md-1">
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" type="text" name="first_name" placeholder="Name"
+                                required>
+                        </div>
+                        <div class="form-group md-1">
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last name"
+                                required>
+                        </div>
+                        <div class="form-group md-1">
+                            <label for="email">Email Address</label>
+                            <input class="text-input" id="email" type="email" name="email_address"
+                                placeholder="Your email" required>
+                            <small id="emailHelp" class="form-text text-muted">I will never share your email
+                                with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group md-1">
+                            <label for="residential">Residential</label>
+                            <input type="radio" name="project-type" id="residential" value="residential" required>
+                            <label for="trail">Commercial</label>
+                            <input type="radio" name="project-type" id="commercial" value="commercial">
+                            <label for="both">Both</label>
+                            <input type="radio" name="project-type" id="both" value="both">
+                        </div>
+                        <div class="form-group md-1">
+                            <label for="textarea">Message</label>
+                            <textarea name="projectsummary" id="projectsummary" rows="10" class="text-area"
+                                placeholder="Project description" required></textarea>
+                            <a class="btn btn-lg mt-5 ml-md-3 btn" href="contact.html">Book your free
+                                consultation
+                                now.</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+
         </div>
         </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="white-section" id="footer">
         <div class="container-fluid">
