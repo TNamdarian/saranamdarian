@@ -28,19 +28,22 @@
 }
 
 .nav-link {
-    padding: 40px 20px;
+    margin: 40px 20px;
     color: #333;
     opacity: 0.8;
     font-size: 48px;
+    padding: 0px;
+    border-bottom: 2px solid #f8f9fa;
 }
 
 .nav-link:hover {
-    text-decoration: none;
     opacity: 1;
     color: #81b214;
+    border-bottom: 2px solid #81b214;
 }
 
-.nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
     color: #81b214;
 }
 
@@ -98,9 +101,10 @@
     padding: 7% 15%;
 }
 
-#consultation .container-fluid{
+#consultation .container-fluid {
     padding: 3% 8%;
 }
+
 #gallery .container-fluid {
     padding: 0;
 }
@@ -176,6 +180,7 @@ P {
 #promotion5 {
     background-image: url("../images/promotion/staircase-promotion-image5.jpg");
 }
+
 #promotion6 {
     background-image: url("../images/promotion/cafe-main-area-promotion-image6.JPG");
 }
@@ -206,11 +211,13 @@ P {
     background-color: #81b214;
     color: #fff;
 }
+
 /* --------------------------------------------------Work page/gallery images */
 #galley .container-fluid {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .gallery-thumbnail {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -386,7 +393,7 @@ ul {
 
     .reasons {
         margin-bottom: 60px;
-        margin-top:30px;
+        margin-top: 30px;
     }
 
     .quote-right {
@@ -404,10 +411,11 @@ ul {
         font-size: 38px;
         font-weight: 500;
     }
-   
+
 }
+
 @media screen and (min-width: 600px) {
-.gallery-img img {
-    height: 198px !important;
-}
+    .gallery-img img {
+        height: 198px !important;
+    }
 }
