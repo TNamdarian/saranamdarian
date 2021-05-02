@@ -63,9 +63,9 @@
 }
 
 /* --------------------------------------------------Dieginer Image And Animation  */
-#image {
+/* #image {
     padding-left: 60px;
-}
+} */
 
 .designer-image {
     width: 400px;
@@ -274,7 +274,6 @@ P {
     margin-top: 60px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.8);
-    width: 600px;
     padding: 30px;
 }
 
