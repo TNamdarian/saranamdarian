@@ -219,7 +219,6 @@ P {
 
 .gallery-img img {
     width: 100%;
-    height: 198px !important;
 }
 
 
@@ -375,4 +374,9 @@ ul {
         font-weight: 500;
     }
    
+}
+@media screen and (min-width: 600px) {
+.gallery-img img {
+    height: 198px !important;
+}
 }
