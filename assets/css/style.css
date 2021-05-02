@@ -40,6 +40,10 @@
     color: #81b214;
 }
 
+.nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #81b214;
+}
+
 .logo {
     padding: 30px;
     font-weight: 700;
