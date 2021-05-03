@@ -249,12 +249,6 @@ P {
     line-height: 1.5;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 50px;
-    width: 100px;
-}
-
 /* --------------------------------------------------Contact and form sections */
 .contact-me {
     font-family: "Roboto", Helvetica, sans-serif;
@@ -334,11 +328,12 @@ P {
 }
 
 #footer p {
-    margin-bottom: 1px;
     font-family: "Antonio", sans-serif;
 }
 
-
+ul {
+    padding-left: 0;
+}
 
 .social-networks li {
     display: inline;
@@ -350,7 +345,7 @@ P {
 }
 
 #footer .container-fluid-copyright {
-    padding: 3% 10%;
+    padding: 2% 10%;
     text-align: center;
 }
 
@@ -360,6 +355,9 @@ P {
     color: #333;
     padding-right: 3%;
     padding-left: 3%;
+}
+.social-networks {
+    padding-top: 23px;
 }
 
 .social-networks i:hover {
