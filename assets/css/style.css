@@ -418,7 +418,12 @@ ul {
     }
 
 }
-
+/* Disable promotion images scrolling for tablets and phones */
+@media only screen and (max-width: 1200px) {
+  .promotion {
+    background-attachment: scroll;
+  }
+}
 @media screen and (min-width: 600px) {
     .gallery-img img {
         height: 198px !important;
