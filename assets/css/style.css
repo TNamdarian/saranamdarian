@@ -184,6 +184,7 @@ P {
 #promotion6 {
     background-image: url("../images/promotion/cafe-main-area-promotion-image6.JPG");
 }
+
 #promotion7 {
     background-image: url("../images/promotion/Bird-view-landscape-promotion-image6.jpg");
 }
@@ -247,10 +248,13 @@ P {
     font-size: 2.5rem;
     line-height: 1.5;
 }
-.carousel-control-prev-icon,.carousel-control-next-icon{
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     height: 50px;
     width: 100px;
 }
+
 /* --------------------------------------------------Contact and form sections */
 .contact-me {
     font-family: "Roboto", Helvetica, sans-serif;
@@ -266,9 +270,11 @@ P {
     background-color: #81b214;
     color: #fff;
 }
+
 .mt-5 {
-    margin-top: 2rem!important;
+    margin-top: 2rem !important;
 }
+
 .contact-form {
     margin-top: 60px;
     color: #fff;
@@ -338,11 +344,12 @@ P {
     display: inline;
 }
 
-#footer .container-fluid-contacts{
+#footer .container-fluid-contacts {
     padding: 7% 10% 3px;
     text-align: center;
 }
-#footer .container-fluid-copyright{
+
+#footer .container-fluid-copyright {
     padding: 3% 10%;
     text-align: center;
 }
@@ -405,11 +412,11 @@ P {
         padding-left: 0px;
         padding-right: 30px;
     }
-    .testimonial-text {
-    font-size: 12px;
-    line-height: normal;
-}
 
+    .testimonial-text {
+        font-size: 18px;
+        line-height: normal;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -419,12 +426,14 @@ P {
     }
 
 }
+
 /* Disable promotion images scrolling for tablets and phones */
 @media only screen and (max-width: 1200px) {
-  .promotion {
-    background-attachment: scroll;
-  }
+    .promotion {
+        background-attachment: scroll;
+    }
 }
+
 @media screen and (min-width: 600px) {
     .gallery-img img {
         height: 198px !important;
