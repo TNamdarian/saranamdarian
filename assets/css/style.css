@@ -81,6 +81,9 @@
     max-width: 230px;
     border-radius: 5px;
 }
+#gallery .container-fluid {
+    padding: 40px 0px;
+}
 
 /* --------------------------------------------------About */
 .big-heading {
@@ -195,6 +198,10 @@ P {
 
 .gallery-img img {
     width: 100%;
+}
+.pb-2 {
+    padding-top: 30px;
+    font-family: "Antonio", sans-serif;
 }
 
 /* --------------------------------------------------Testimonials */
