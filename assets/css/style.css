@@ -393,7 +393,7 @@ ul {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
     .gallery-img img {
         height: 180px !important;
         width: 240px; 
