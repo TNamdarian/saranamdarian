@@ -62,40 +62,6 @@
     box-shadow: unset;
 }
 
-/* --------------------------------------------------Dieginer Image And Animation  */
-/* #image {
-    padding-left: 60px;
-} */
-
-.designer-image {
-    width: 400px;
-    height: 600px;
-    background: url("../images/designer-image/Desginer-image.jpg") no-repeat;
-    animation-name: designer-zoom;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
-    width: 100%;
-    position: absolute;
-    left: 10%;
-}
-
-.designer-outer {
-    width: 400px;
-    height: 600px;
-    overflow: hidden;
-    position: relative;
-}
-
-@keyframes designer-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
-
 /* --------------------------------------------------Containers */
 .container-fluid {
     padding: 7% 15%;
@@ -150,6 +116,10 @@ P {
 .initial {
     font-size: 64px;
     font-weight: 700;
+}
+
+#image {
+    padding: 30px 100px;
 }
 
 /* --------------------------------------------------Promostional Iamges  */
@@ -356,6 +326,7 @@ ul {
     padding-right: 3%;
     padding-left: 3%;
 }
+
 .social-networks {
     padding-top: 23px;
 }
