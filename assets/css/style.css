@@ -260,10 +260,13 @@ P {
 }
 
 .testimonial-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
-
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    height: 50px;
+    width: 100px;
+}
 /* --------------------------------------------------Contact page and form section */
 .contact-me h1 {
     padding-top: 30px;
