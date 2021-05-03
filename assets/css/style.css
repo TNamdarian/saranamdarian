@@ -199,22 +199,6 @@ P {
     font-size: 1.5rem;
 }
 
-/* --------------------------------------------------Contact section */
-.contact-me {
-    font-family: "Roboto", Helvetica, sans-serif;
-    text-align: center;
-}
-
-.contact-me h1,
-#consultation h1 {
-    padding-bottom: 20px;
-}
-
-.btn {
-    background-color: #81b214;
-    color: #fff;
-}
-
 /* --------------------------------------------------Work page/gallery images */
 #galley .container-fluid {
     padding-top: 30px;
@@ -267,15 +251,24 @@ P {
     height: 50px;
     width: 100px;
 }
-/* --------------------------------------------------Contact page and form section */
-.contact-me h1 {
-    padding-top: 30px;
+/* --------------------------------------------------Contact and form sections */
+.contact-me {
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-align: center;
 }
 
-.contact-me h2 {
-    padding-bottom: 30px;
+.contact-me h1,
+#consultation h1 {
+    padding-bottom: 10px;
 }
 
+.btn {
+    background-color: #81b214;
+    color: #fff;
+}
+.mt-5 {
+    margin-top: 2rem!important;
+}
 .contact-form {
     margin-top: 60px;
     color: #fff;
