@@ -242,8 +242,8 @@ P {
 .contact-form {
     margin-top: 60px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.8);
-    padding: 30px;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 20px;
 }
 
 .text-input {
@@ -275,10 +275,6 @@ P {
     border-color: #81b214;
 }
 
-.container-fluid .row {
-    padding: 0px;
-}
-
 .form-section {
     background: url("../images/promotion/Hotel-lobby-promotion-image5.jpg");
     background-size: cover;
@@ -294,10 +290,6 @@ P {
 
 /* --------------------------------------------------Footer */
 #footer {
-    font-family: "Antonio", sans-serif;
-}
-
-#footer p {
     font-family: "Antonio", sans-serif;
 }
 
@@ -318,7 +310,6 @@ ul {
     padding: 2% 10%;
     text-align: center;
 }
-
 
 .social-networks i {
     font-size: 150%;
@@ -347,21 +338,13 @@ ul {
 .scroll-up-icon {
     color: #81b214;
 }
-
 .scroll-up {
-    font-size: 20px;
+    font-size: 26px;
     padding-top: 3%;
     padding-bottom: 1%;
-}
-
-/* --------------------------------------------------Copyright */
-.copyright p {
-    padding: 20px;
     font-family: "Antonio", sans-serif;
-    color: gray;
-    text-align: center;
+    font-weight: 300;
 }
-
 /* --------------------------------------------------Media Quaries  */
 @media screen and (max-width: 540px) {
     .nav-link {
@@ -406,5 +389,6 @@ ul {
 @media screen and (min-width: 600px) {
     .gallery-img img {
         height: 198px !important;
+        width: auto;
     }
 }
