@@ -195,6 +195,7 @@ P {
 
 .gallery-img img {
     width: 100%;
+    height: auto;
 }
 
 .pb-2 {
