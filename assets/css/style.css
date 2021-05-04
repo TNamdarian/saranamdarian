@@ -98,7 +98,6 @@
 
 P {
     font-weight: 200;
-    line-height: 1.5;
     font-family: "roboto", sans-serif;
 }
 
@@ -173,7 +172,10 @@ P {
 
 /* --------------------------------------------------Work page/gallery images */
 
-
+.gallery-img img {
+        width: 100% !important;
+        height: auto !important;
+    }
 .gallery-thumbnail {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -405,8 +407,8 @@ ul {
 }
 /* Unavble the images to strech on bigger sized devices!  */
 @media only screen and (min-width: 540px) {
-    .gallery-img img {
-        height: 189px !important;
-        width: 240x !important;
+    #image {
+        padding-left: 70px;
+        padding-right: 0px;
     }
 }
