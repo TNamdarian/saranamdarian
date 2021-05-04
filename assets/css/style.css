@@ -369,8 +369,7 @@ ul {
     }
 
     #image {
-        padding-left: 0px;
-        padding-right: 70px;
+        padding: 80px 70px;
     }
 
     .row>* {
