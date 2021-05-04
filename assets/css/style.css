@@ -98,7 +98,7 @@
 
 P {
     font-weight: 200;
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .quote-right {
@@ -348,7 +348,11 @@ ul {
     font-family: "Antonio", sans-serif;
     font-weight: 300;
 }
-
+.copyright {
+    font-weight: 100;
+    color: grey;
+    font-size: small;
+}
 /* --------------------------------------------------Media Quaries  */
 @media screen and (max-width: 540px) {
     .nav-link {
