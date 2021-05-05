@@ -2,7 +2,7 @@
 
 ## Interior Designer 
 
-[View the live project here.]() 
+[View the live project here.](https://tnamdarian.github.io/saranamdarian) 
 
 This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
 

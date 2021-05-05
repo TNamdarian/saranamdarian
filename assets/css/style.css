@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
+:root {
+    --green: #4f8200; /* #81b214 */
+    --fontAntonio: "Antonio", sans-serif;
+}
+
 /* --------------------------------------------------Sections */
 .white-section {
     background-color: #fff;
@@ -9,14 +14,15 @@
     text-transform: uppercase;
 }
 
-.row {
-    margin-left: 0;
-    margin-right: 0;
+.font-antonio {
+    font-family: var(--fontAntonio);
 }
+
+
 
 /* --------------------------------------------------Header */
 #header {
-    font-family: "Antonio", sans-serif;
+    font-family: var(--fontAntonio);
     text-align: center;
 }
 
@@ -38,13 +44,13 @@
 
 .nav-link:hover {
     opacity: 1;
-    color: #81b214;
-    border-bottom: 2px solid #81b214;
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
 }
 
 .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #81b214;
+    color: var(--green);
 }
 
 .logo {
@@ -63,17 +69,12 @@
 }
 
 /* --------------------------------------------------Containers */
-.container-fluid,
-#about .container-fluid {
+.container-fluid-reasons {
     padding: 7% 15%;
 }
 
 #consultation .container-fluid {
     padding: 3% 8%;
-}
-
-#gallery .container-fluid {
-    padding: 0;
 }
 
 .order-steps-container {
@@ -83,8 +84,14 @@
     border-radius: 5px;
 }
 
-#gallery .container-fluid {
-    padding: 40px 0px;
+.container-fluid-contacts {
+    padding: 7% 10% 3px;
+    text-align: center;
+}
+
+.container-fluid-copyright {
+    padding: 2% 10%;
+    text-align: center;
 }
 
 /* --------------------------------------------------About */
@@ -93,7 +100,7 @@
     font-weight: 900;
     font-family: "Roboto", sans-serif;
     margin-bottom: 0;
-    color: #81b214;
+    color: var(--green);
 }
 
 P {
@@ -106,7 +113,7 @@ P {
     position: relative;
     left: 45%;
     top: 5%;
-    color: #81b214;
+    color: var(--green);
 }
 
 .quote-left {
@@ -114,7 +121,7 @@ P {
     position: relative;
     left: 45%;
     top: 5%;
-    color: #81b214;
+    color: var(--green);
 }
 
 .initial {
@@ -123,7 +130,7 @@ P {
 }
 
 #image {
-    padding: 80px 70px;
+    padding: 80px 0;
 }
 
 /* --------------------------------------------------Promostional Iamges  */
@@ -198,15 +205,9 @@ P {
     width: 100%;
     max-width: 240px;
 }
-
-.pb-2 {
-    padding-top: 30px;
-    font-family: "Antonio", sans-serif;
-}
-
 /* --------------------------------------------------Testimonials */
 #testimonials {
-    background-color: #81b214;
+    background-color: var(--green);
     color: #fff;
     text-align: center;
 }
@@ -231,14 +232,18 @@ P {
     font-family: "Roboto", Helvetica, sans-serif;
     text-align: center;
 }
-
+form.contact-form input::placeholder,
+form.contact-form textarea::placeholder,
+form.contact-form small#emailHelp {
+    color: yellow;
+}
 .contact-me h1,
 #consultation h1 {
     padding-bottom: 10px;
 }
 
 .btn {
-    background-color: #81b214;
+    background-color: var(--green);
     color: #fff;
 }
 
@@ -265,7 +270,7 @@ P {
 }
 
 .text-input:hover {
-    border-color: #81b214;
+    border-color: var(--green);
 }
 
 .text-area {
@@ -279,7 +284,7 @@ P {
 }
 
 .text-area:hover {
-    border-color: #81b214;
+    border-color: var(--green);
 }
 
 .form-section {
@@ -297,7 +302,7 @@ P {
 
 /* --------------------------------------------------Footer */
 #footer {
-    font-family: "Antonio", sans-serif;
+    font-family: var(--fontAntonio);
 }
 
 ul {
@@ -306,16 +311,6 @@ ul {
 
 .social-networks li {
     display: inline;
-}
-
-#footer .container-fluid-contacts {
-    padding: 7% 10% 3px;
-    text-align: center;
-}
-
-#footer .container-fluid-copyright {
-    padding: 2% 10%;
-    text-align: center;
 }
 
 .social-networks i {
@@ -330,7 +325,7 @@ ul {
 }
 
 .social-networks i:hover {
-    color: #81b214;
+    color: var(--green);
 }
 
 .contact li {
@@ -343,14 +338,14 @@ ul {
 }
 
 .scroll-up-icon {
-    color: #81b214;
+    color: var(--green);
 }
 
 .scroll-up {
     font-size: 26px;
     padding-top: 3%;
     padding-bottom: 1%;
-    font-family: "Antonio", sans-serif;
+    font-family: var(--fontAntonio);
     font-weight: 300;
 }
 
@@ -373,12 +368,6 @@ ul {
 
     .quote-right {
         margin-bottom: 25px;
-    }
-
-    .row>* {
-        padding-right: 0;
-        padding-left: 0;
-        margin-top: 0;
     }
 
     #about .container-fluid {
@@ -406,32 +395,40 @@ ul {
         padding-right: 5px;
 
     }
+}
 
-    /* Disable promotion images scrolling for tablets and phones */
-    @media only screen and (max-width: 1200px) {
-        .promotion {
-            background-attachment: scroll;
-        }
+/* Disable promotion images scrolling for tablets and phones */
+@media only screen and (max-width: 1200px) {
+    .promotion {
+        background-attachment: scroll;
     }
+}
 
-    /* Unavble the images to strech on bigger sized devices!  */
-    @media only screen and (min-width: 320px) {
-        #image {
-            padding-left: 0px;
-            padding-right: 70px;
-        }
+/* Disable the images to strech on bigger sized devices!  */
+@media only screen and (min-width: 1024px) {
+    #image {
+        padding-left: 30px;
+        padding-right: 30px;
     }
+}
 
-    @media only screen and (max-width: 1200px) {
-        .feature-title {
-            font-size: 1rem;
-        }
+@media only screen and (min-width: 768px) {
+    #image {
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
     }
+}
 
-    @media only screen and (min-width: 1680px) {
-        .responsive {
-            height: 280px;
-            width: 100%;
-            max-width: 307px;
-        }
+@media only screen and (max-width: 1400px) {
+    .feature-title {
+        font-size: 1rem;
     }
+}
+
+@media only screen and (min-width: 1680px) {
+    .responsive {
+        height: 280px;
+        max-width: 307px;
+    }
+}
