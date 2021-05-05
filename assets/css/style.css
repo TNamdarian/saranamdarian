@@ -193,9 +193,10 @@ P {
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
 
-.gallery-img img {
-    width: 100% !important;
-    height: 100% !important;
+.responsive {
+    height: 158px;
+    width: 100%;
+    max-width: 240px;
 }
 
 .pb-2 {
