@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
-:root {
-    --green: #4f8200; /* #81b214 */
-    --fontAntonio: "Antonio", sans-serif;
-}
-
 /* --------------------------------------------------Sections */
 .white-section {
     background-color: #fff;
@@ -15,14 +10,14 @@
 }
 
 .font-antonio {
-    font-family: var(--fontAntonio);
+    font-family: "Antonio", sans-serif;
 }
 
 
 
 /* --------------------------------------------------Header */
 #header {
-    font-family: var(--fontAntonio);
+    font-family: "Antonio", sans-serif;
     text-align: center;
 }
 
@@ -44,13 +39,13 @@
 
 .nav-link:hover {
     opacity: 1;
-    color: var(--green);
-    border-bottom: 2px solid var(--green);
+    color: #81b214;
+    border-bottom: 2px solid #81b214;
 }
 
 .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: var(--green);
+    color: #81b214;
 }
 
 .logo {
@@ -100,7 +95,7 @@
     font-weight: 900;
     font-family: "Roboto", sans-serif;
     margin-bottom: 0;
-    color: var(--green);
+    color: #81b214;
 }
 
 P {
@@ -113,7 +108,7 @@ P {
     position: relative;
     left: 45%;
     top: 5%;
-    color: var(--green);
+    color: #81b214;
 }
 
 .quote-left {
@@ -121,7 +116,7 @@ P {
     position: relative;
     left: 45%;
     top: 5%;
-    color: var(--green);
+    color: #81b214;
 }
 
 .initial {
@@ -207,7 +202,7 @@ P {
 }
 /* --------------------------------------------------Testimonials */
 #testimonials {
-    background-color: var(--green);
+    background-color: #81b214;
     color: #fff;
     text-align: center;
 }
@@ -234,7 +229,7 @@ P {
 }
 form.contact-form input::placeholder,
 form.contact-form textarea::placeholder,
-form.contact-form small#emailHelp {
+form.contact-form small #emailHelp #emailhelp{
     color: yellow;
 }
 .contact-me h1,
@@ -243,7 +238,7 @@ form.contact-form small#emailHelp {
 }
 
 .btn {
-    background-color: var(--green);
+    background-color: #81b214;
     color: #fff;
 }
 
@@ -270,7 +265,7 @@ form.contact-form small#emailHelp {
 }
 
 .text-input:hover {
-    border-color: var(--green);
+    border-color: #81b214;
 }
 
 .text-area {
@@ -284,7 +279,7 @@ form.contact-form small#emailHelp {
 }
 
 .text-area:hover {
-    border-color: var(--green);
+    border-color: #81b214;
 }
 
 .form-section {
@@ -302,7 +297,7 @@ form.contact-form small#emailHelp {
 
 /* --------------------------------------------------Footer */
 #footer {
-    font-family: var(--fontAntonio);
+    font-family: "Antonio", sans-serif;
 }
 
 ul {
@@ -325,7 +320,7 @@ ul {
 }
 
 .social-networks i:hover {
-    color: var(--green);
+    color: #81b214;
 }
 
 .contact li {
@@ -338,14 +333,14 @@ ul {
 }
 
 .scroll-up-icon {
-    color: var(--green);
+    color: #81b214;
 }
 
 .scroll-up {
     font-size: 26px;
     padding-top: 3%;
     padding-bottom: 1%;
-    font-family: var(--fontAntonio);
+    font-family: "Antonio", sans-serif;
     font-weight: 300;
 }
 
