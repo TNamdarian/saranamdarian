@@ -2,7 +2,7 @@
 
 /* --------------------------------------------------Sections */
 .white-section {
-    background-color: #fff;
+    background-color: var(--bgWhite);
 }
 
 .text-uppercase {
@@ -10,10 +10,22 @@
 }
 
 .font-antonio {
-    font-family: "Antonio", sans-serif;
+    font-family: var(--Antonio);
 }
 
-
+:root {
+    --fontAntonio: 'Antonio', sans-serif;
+    /* font-family: var(--Antonio); */
+    --green: #4f8200;
+    color: var(--green);
+    /*previious color #81b214*/
+    --bggreen: #4f8200;
+    /* color: var(--bggreen); */
+    --grey: #dddddd;
+    /* color: var(--grey); */
+    --bgWhite: #F4F4F4;
+    /* color: var(--bgWhite); */
+}
 
 /* --------------------------------------------------Header */
 #header {
@@ -39,13 +51,13 @@
 
 .nav-link:hover {
     opacity: 1;
-    color: #81b214;
-    border-bottom: 2px solid #81b214;
+    color: var(--green);
+    border-bottom: 2px solid var(--green);;
 }
 
 .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #81b214;
+    color: var(--green);
 }
 
 .logo {
@@ -95,7 +107,7 @@
     font-weight: 900;
     font-family: "Roboto", sans-serif;
     margin-bottom: 0;
-    color: #81b214;
+    color: var(--green);
 }
 
 P {
@@ -108,7 +120,7 @@ P {
     position: relative;
     left: 45%;
     top: 5%;
-    color: #81b214;
+    color: var(--green);
 }
 
 .quote-left {
@@ -116,7 +128,7 @@ P {
     position: relative;
     left: 45%;
     top: 5%;
-    color: #81b214;
+    color: var(--green);
 }
 
 .initial {
@@ -200,9 +212,10 @@ P {
     width: 100%;
     max-width: 240px;
 }
+
 /* --------------------------------------------------Testimonials */
 #testimonials {
-    background-color: #81b214;
+    background-color: var(--green);
     color: #fff;
     text-align: center;
 }
@@ -227,18 +240,20 @@ P {
     font-family: "Roboto", Helvetica, sans-serif;
     text-align: center;
 }
+
 form.contact-form input::placeholder,
 form.contact-form textarea::placeholder,
-form.contact-form small #emailHelp #emailhelp{
+form.contact-form small #emailHelp #emailhelp {
     color: yellow;
 }
+
 .contact-me h1,
 #consultation h1 {
     padding-bottom: 10px;
 }
 
 .btn {
-    background-color: #81b214;
+    background-color: var(--green);
     color: #fff;
 }
 
@@ -261,7 +276,7 @@ form.contact-form small #emailHelp #emailhelp{
 }
 
 .text-input:hover {
-    border-color: #81b214;
+    border-color: var(--green);
 }
 
 .text-area {
@@ -275,7 +290,7 @@ form.contact-form small #emailHelp #emailhelp{
 }
 
 .text-area:hover {
-    border-color: #81b214;
+    border-color: var(--green);
 }
 
 .form-section {
@@ -316,7 +331,7 @@ ul {
 }
 
 .social-networks i:hover {
-    color: #81b214;
+    color: var(--green);
 }
 
 .contact li {
@@ -329,7 +344,7 @@ ul {
 }
 
 .scroll-up-icon {
-    color: #81b214;
+    color: var(--green);
 }
 
 .scroll-up {
