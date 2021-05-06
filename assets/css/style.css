@@ -375,7 +375,6 @@ ul {
 @media only screen and (max-width: 1000px) {
     .parallax {
         background-attachment: scroll;
-        width: auto;
     }
 }
 /* Make the designer-image centred in small break points */
