@@ -371,15 +371,13 @@ ul {
     }
 }
 
-/* Disable parallax images scrolling for tablets and phones */
-@media only screen and (max-width: 1200px) {
+/* Disable parallax images scrolling for small tablets and phones */
+@media only screen and (max-width: 1000px) {
     .parallax {
         background-attachment: scroll;
-
     }
 }
-
-/* Disable the images to strech on bigger sized devices!  */
+/* Make the designer-image centred in small break points */
 @media only screen and (min-width: 1024px) {
     #image {
         padding-left: 30px;
@@ -394,13 +392,13 @@ ul {
         padding-right: 30px;
     }
 }
-
+/* Make the features-title font smaller iin smaller devices.  */
 @media only screen and (max-width: 1400px) {
     .feature-title {
         font-size: 1rem;
     }
 }
-
+/* Disable gallery images stretch for bigger break points.  */
 @media only screen and (min-width: 1680px) {
     .responsive {
         height: 280px;
