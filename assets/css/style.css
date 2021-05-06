@@ -16,7 +16,10 @@
 .font-antonio {
     font-family: var(--Antonio);
 }
-
+.text.center {
+    text-align: var(--center);
+}
+/* -------------------------------------------------- ROOT VARIABLES */
 :root {
     --Antonio: 'Antonio', sans-serif;
     /* font-family: var(--Antonio); */
@@ -35,12 +38,13 @@
     /* color: var(--White); */
     --Black: #333;
     /* color: var(--Black); */
+    --center: center;
+    /* text-align: center; */
 }
 
 /* --------------------------------------------------Header */
 #header {
     font-family: "Antonio", sans-serif;
-    text-align: center;
 }
 
 .navbar-toggler {
@@ -78,10 +82,6 @@
     margin-bottom: 0;
 }
 
-.nav-item {
-    text-align: center;
-}
-
 .navbar-toggler:focus {
     box-shadow: unset;
 }
@@ -93,10 +93,6 @@
     max-width: 240px;
     border-radius: 5px;
     height: 180px;
-}
-
-.copyright {
-    text-align: center;
 }
 
 /* --------------------------------------------------About */
@@ -178,7 +174,6 @@ P {
 
 /* --------------------------------------------------Reasons */
 .reasons {
-    text-align: center;
     margin-top: 60px;
 }
 
@@ -214,7 +209,6 @@ P {
 /* --------------------------------------------------Testimonials */
 #testimonials {
     color: var(--White);
-    text-align: center;
 }
 
 .carousel-item {
@@ -233,10 +227,6 @@ P {
 }
 
 /* --------------------------------------------------Contact and form sections */
-.contact-me {
-    text-align: center;
-}
-
 form.contact-form input::placeholder,
 form.contact-form textarea::placeholder,
 form.contact-form small #emailHelp #emailhelp {
@@ -303,10 +293,6 @@ form.contact-form small #emailHelp #emailhelp {
 }
 
 /* --------------------------------------------------Footer */
-#footer {
-    font-family: "Antonio", sans-serif;
-    text-align: center;
-}
 
 ul {
     padding-left: 0;
@@ -333,7 +319,6 @@ ul {
 
 .contact li {
     list-style: none;
-    text-align: center;
 }
 
 .contact .email {
@@ -342,7 +327,6 @@ ul {
 
 .scroll-up-icon {
     color: var(--green);
-    text-align: center;
 }
 
 .scroll-up {
@@ -351,7 +335,6 @@ ul {
     padding-bottom: 1%;
     font-family: "Antonio", sans-serif;
     font-weight: 300;
-    text-align: center;
 }
 
 .copyright {
