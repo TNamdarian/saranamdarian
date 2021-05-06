@@ -87,19 +87,14 @@
 }
 
 /* --------------------------------------------------Containers */
-.container-fluid-reasons {
-    padding: 7% 15%;
-}
 
-#consultation .container-fluid {
-    padding: 3% 8%;
-}
 
 .order-steps-container {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     max-width: 240px;
     border-radius: 5px;
+    height: auto;
 }
 
 .container-fluid-contacts {
