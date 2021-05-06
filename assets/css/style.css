@@ -95,13 +95,7 @@
     height: 180px;
 }
 
-.container-fluid-contacts {
-    padding: 7% 10% 3px;
-    text-align: center;
-}
-
-.container-fluid-copyright {
-    padding: 2% 10%;
+.copyright {
     text-align: center;
 }
 
@@ -311,6 +305,7 @@ form.contact-form small #emailHelp #emailhelp {
 /* --------------------------------------------------Footer */
 #footer {
     font-family: "Antonio", sans-serif;
+    text-align: center;
 }
 
 ul {
@@ -347,6 +342,7 @@ ul {
 
 .scroll-up-icon {
     color: var(--green);
+    text-align: center;
 }
 
 .scroll-up {
@@ -355,6 +351,7 @@ ul {
     padding-bottom: 1%;
     font-family: "Antonio", sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 .copyright {
@@ -392,12 +389,6 @@ ul {
     .big-heading {
         font-size: 38px;
         font-weight: 500;
-    }
-
-    .order-steps-container p {
-        padding-left: 5px;
-        padding-right: 5px;
-
     }
 }
 
