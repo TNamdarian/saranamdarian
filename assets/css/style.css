@@ -87,14 +87,12 @@
 }
 
 /* --------------------------------------------------Containers */
-
-
-.order-steps-container {
+.consultation-container {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     max-width: 240px;
     border-radius: 5px;
-    height: auto;
+    height: 180px;
 }
 
 .container-fluid-contacts {
