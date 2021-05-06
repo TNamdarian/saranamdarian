@@ -19,7 +19,7 @@
 .text.center {
     text-align: var(--center);
 }
-/* -------------------------------------------------- ROOT VARIABLES */
+/* -------------------------------------------------- Root Variables*/
 :root {
     --Antonio: 'Antonio', sans-serif;
     /* font-family: var(--Antonio); */
@@ -240,7 +240,7 @@ form.contact-form small #emailHelp #emailhelp {
 
 .btn {
     background-color: var(--green);
-    color: var(--White)
+    color: var(--White);
 }
 
 .contact-form {
