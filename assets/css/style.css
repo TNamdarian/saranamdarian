@@ -94,7 +94,10 @@
     border-radius: 5px;
     height: 180px;
 }
-
+#form .container-fluid {
+    padding: 0;
+    margin: 0;
+}
 /* --------------------------------------------------About */
 .big-heading {
     font-size: 58px;
@@ -135,7 +138,7 @@ P {
 }
 
 /* --------------------------------------------------Promostional Iamges  */
-.promotion {
+.parallax {
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -143,32 +146,32 @@ P {
     background-size: cover;
 }
 
-#promotion1 {
-    background-image: url("../images/promotion/Hotel-bar-promotion-image1.jpg");
+#parallax1 {
+    background-image: url("../images/parallax/Hotel-bar-parallax-image1.jpg");
 }
 
-#promotion2 {
-    background-image: url("../images/promotion/Food-court-promotion-image2.jpg");
+#parallax2 {
+    background-image: url("../images/parallax/Food-court-parallax-image2.jpg");
 }
 
-#promotion3 {
-    background-image: url("../images/promotion/dining-room-promotion-image3.jpg");
+#parallax3 {
+    background-image: url("../images/parallax/dining-room-parallax-image3.jpg");
 }
 
-#promotion4 {
-    background-image: url("../images/promotion/bedroom-promotion-image4.jpg");
+#parallax4 {
+    background-image: url("../images/parallax/bedroom-parallax-image4.jpg");
 }
 
-#promotion5 {
-    background-image: url("../images/promotion/staircase-promotion-image5.jpg");
+#parallax5 {
+    background-image: url("../images/parallax/staircase-parallax-image5.jpg");
 }
 
-#promotion6 {
-    background-image: url("../images/promotion/cafe-main-area-promotion-image6.JPG");
+#parallax6 {
+    background-image: url("../images/parallax/cafe-main-area-parallax-image6.JPG");
 }
 
-#promotion7 {
-    background-image: url("../images/promotion/Bird-view-landscape-promotion-image6.jpg");
+#parallax7 {
+    background-image: url("../images/parallax/Bird-view-landscape-parallax-image6.jpg");
 }
 
 
@@ -280,17 +283,13 @@ form.contact-form small #emailHelp #emailhelp {
 }
 
 .form-section {
-    background: url("../images/promotion/Hotel-lobby-promotion-image5.jpg");
+    background: url("../images/parallax/Hotel-lobby-parallax-image5.jpg");
     background-size: cover;
     background-position: center;
     height: 800px;
     padding-top: 30px;
 }
 
-#form .container-fluid {
-    padding: 0;
-    margin: 0;
-}
 
 /* --------------------------------------------------Footer */
 
@@ -375,9 +374,9 @@ ul {
     }
 }
 
-/* Disable promotion images scrolling for tablets and phones */
+/* Disable parallax images scrolling for tablets and phones */
 @media only screen and (max-width: 1200px) {
-    .promotion {
+    .parallax {
         background-attachment: scroll;
     }
 }
