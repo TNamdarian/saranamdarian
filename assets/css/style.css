@@ -4,6 +4,9 @@
 .white-section {
     background-color: var(--bgWhite);
 }
+.colored-section {
+    background-color: var(--bggreen);
+}
 
 .text-uppercase {
     text-transform: uppercase;
@@ -14,7 +17,7 @@
 }
 
 :root {
-    --fontAntonio: 'Antonio', sans-serif;
+    --Antonio: 'Antonio', sans-serif;
     /* font-family: var(--Antonio); */
     --green: #4f8200;
     color: var(--green);
@@ -23,8 +26,10 @@
     /* color: var(--bggreen); */
     --grey: #dddddd;
     /* color: var(--grey); */
-    --bgWhite: #F4F4F4;
+    --bgWhite: white;
     /* color: var(--bgWhite); */
+    --White: white;
+    /* color: var(--White); */
 }
 
 /* --------------------------------------------------Header */
@@ -215,8 +220,7 @@ P {
 
 /* --------------------------------------------------Testimonials */
 #testimonials {
-    background-color: var(--green);
-    color: #fff;
+    color: var(--White); 
     text-align: center;
 }
 
@@ -237,14 +241,13 @@ P {
 
 /* --------------------------------------------------Contact and form sections */
 .contact-me {
-    font-family: "Roboto", Helvetica, sans-serif;
     text-align: center;
 }
 
 form.contact-form input::placeholder,
 form.contact-form textarea::placeholder,
 form.contact-form small #emailHelp #emailhelp {
-    color: yellow;
+    color: var(--grey)
 }
 
 .contact-me h1,
@@ -254,7 +257,7 @@ form.contact-form small #emailHelp #emailhelp {
 
 .btn {
     background-color: var(--green);
-    color: #fff;
+    color: var(--White)
 }
 
 .contact-form {
