@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;500;700&family=Coda+Caption:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
-/* --------------------------------------------------Sections */
+/* -------------------------------------------------- Common css codes */
 .white-section {
     background-color: var(--bgWhite);
 }
@@ -94,10 +94,7 @@
     border-radius: 5px;
     height: 180px;
 }
-#form .container-fluid {
-    padding: 0;
-    margin: 0;
-}
+
 /* --------------------------------------------------About */
 .big-heading {
     font-size: 58px;
@@ -378,6 +375,7 @@ ul {
 @media only screen and (max-width: 1200px) {
     .parallax {
         background-attachment: scroll;
+
     }
 }
 
