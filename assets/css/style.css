@@ -372,10 +372,10 @@ ul {
 }
 
 /* Disable parallax images scrolling for small tablets and phones */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .parallax {
         background-attachment: scroll;
-            background-size: 100%;
+            background-size: contain;
     }
 }
 /* Make the designer-image centred in small break points */
