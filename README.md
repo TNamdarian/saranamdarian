@@ -3,6 +3,7 @@
 ## Interior Designer 
 
 [View the live project here.](https://tnamdarian.github.io/saranamdarian) 
+[Am I responsive?](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/Am-I-responsive%3F.png)  
 
 This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, 'ethos''call for action', ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, 'designer's contact details' and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
 
@@ -179,5 +180,5 @@ I decided to develop this website for my sister as she wanted to have a brand ne
 * [sokruta.com.ua/en](https://sokruta.com.ua/en)
 * I also received inspirations for the content of the website for personal branding via [Interior Design Business: How To Build a Personal Brand](https://essenziale-hd.com/2017/10/02/interior-design-business-build-personal-brand/).
 * [Bootsnip.com](https://bootsnipp.com/snippets/g5XDo#comments) I was inspired by the code on this snippet which was written in Bootsnip 3.1.0. I used Bootstrap5 to create a similar laypit for the website's header and menubar. 
-* Thanks to my mentor Guido Cecilio Garcia Bernal guided me throughout this project.
-* I would like to also thank Tim Nelson, a great tutor at Code Institude, who helped me with problem solving. 
+* Huge thanks to my mentor [Guido Cecilio Garcia Bernal](https://github.com/guidocecilio) guided me throughout this project.
+* I would like to also thank [Tim Nelson](https://github.com/TravelTimN), a great tutor at Code Institude, who helped me with problem solving. 
