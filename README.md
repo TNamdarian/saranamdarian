@@ -173,18 +173,18 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
 Several issues were identified on **W3C Markup Validation**. 
-![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/HTML-erros-contact-page.png)
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/html-erros-contact-page.png)
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/aria-lebel-footer.png)
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/images-error.png)
 
 After I rectified the issue, no further errors were picked. 
 
 No errors were identified in the CSS code by **W3C CSS validation**. 
-![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/CLEAN-CSS.png)
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/clean-css.png)
 
 ## Color Contrast 
 The [Color Contrast Accessibility Validator](https://webaim.org/) was used to test for colour contrast on the project.
-![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/Contrast-checker.png). 
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/contrast-checker.png). 
 
 The initial `color: ##81b214;` had Contrast Ratio of 2.52:1 with the white background. So I changed it to a darker green. 
 
