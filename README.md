@@ -152,7 +152,7 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 
     ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/ethos.png)
 
-    - The **call to action button** takes the users to the contact page where they can get more information on how to contact the designer. 
+    - The **call to action button** takes the users to the **Contact Page** where they can get more information on how to contact the designer. 
 
     ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/cta.png)
 
@@ -181,8 +181,8 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 
 6. As a potential client, I would like to learn more about the designers’ works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.  
     - The galley on **Work Page** showcases the designer’s range of skills and projects. 
-    - The **Footer** provides links to the designer's **social media** platforms. 
-    
+    - The **footer** provides links to the designer's **social media** platforms. 
+
     ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/footer.png)
 
 7. As a returning visitor to the website, I want to be able to find the contact page easily to reach the designer.
@@ -199,7 +199,7 @@ Several issues were identified on **W3C Markup Validation**.
 After I rectified the issue, no further errors were picked. 
 
 No errors were identified in the CSS code by **W3C CSS validation**. 
-![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/clean-css.png)
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/clean.css.png)
 
 ## Color Contrast 
 The [Color Contrast Accessibility Validator](https://webaim.org/) was used to test for colour contrast on the project.
@@ -207,7 +207,7 @@ The [Color Contrast Accessibility Validator](https://webaim.org/) was used to te
 
 The initial `color: ##81b214;` had Contrast Ratio of 2.52:1 with the white background. So I changed it to a darker green. 
 
-## COMBATIBILITY
+## COMPATIBILITY
 To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
 
 * Chrome
