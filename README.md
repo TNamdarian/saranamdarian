@@ -141,8 +141,19 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 # Testing 
 
 # Deployment 
+This project was developed using [Gitpod](https://gitpod.io/workspaces), committed to git and pushed to GitHub using git commands. 
 
-## How to run this project locally
+To deploy this page to **GitHub Pages** from its [GitHub repository](https://github.com/TNamdarian/saranamdarian), the following steps were taken:
+
+1. Log into [GitHub](https://github.com/).
+2. From the list of repositories on the screen, **select saranamdarian**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under Source click the drop-down menu labelled None and select **Main Branch**. Then **Save** it. 
+6. WAit for a few minutes of the website to be deployed.
+7. Scroll back down to the **GitHub Pages** section to access the link to the deployed website.
+
+For this project, local deployment was not required.
 
 # Credits
 ## Content
@@ -162,5 +173,5 @@ I decided to develop this website for my sister as she wanted to have a brand ne
 * [sokruta.com.ua/en](https://sokruta.com.ua/en)
 * I also received inspirations for the content of the website for personal branding via [Interior Design Business: How To Build a Personal Brand](https://essenziale-hd.com/2017/10/02/interior-design-business-build-personal-brand/).
 * [Bootsnip.com](https://bootsnipp.com/snippets/g5XDo#comments) I was inspired by the code on this snippet which was written in Bootsnip 3.1.0. I used Bootstrap5 to create a similar laypit for the website's header and menubar. 
-* My mentor Guido Cecilio Garcia Bernal guided me throughout this project.
-* I would also thank Tim Nelson, a great tutor at Code Institude, who helped me with problem solving. 
+* Thanks to my mentor Guido Cecilio Garcia Bernal guided me throughout this project.
+* I would like to also thank Tim Nelson, a great tutor at Code Institude, who helped me with problem solving. 
