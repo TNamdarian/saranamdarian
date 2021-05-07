@@ -218,6 +218,24 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 
 For this project, local deployment was not required.
 
+### Run this project locally
+- Select the Repository from the GitHub Dashboard.
+- Click the green button labelled 'Code'.
+- Click 'Download ZIP'.
+- Extract ZIP file on your computer.
+- Open folder and open index.html in web browser.
+
+### Clone this project
+- Select the Repository from the GitHub Dashboard.
+- Click the green button labelled 'Code'.
+- To clone the repository using:
+    - HTTPS: under "Clone with HTTPS", click checklist icon.
+    - SSH: click Use SSH, then click checklist icon.
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type 'git clone', and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+
 # Credits
 ## Content
 The texts for all the pages have been created by the designer. 
