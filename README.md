@@ -4,7 +4,7 @@
 
 [View the live project here.](https://tnamdarian.github.io/saranamdarian) 
 
-![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/Am-I-responsive%3F.png)  
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/am-i-responsive.png)  
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
 This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, 'ethos''call for action', ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, 'designer's contact details' and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
