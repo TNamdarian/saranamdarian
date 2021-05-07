@@ -216,8 +216,6 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 6. WAit for a few minutes of the website to be deployed.
 7. Scroll back down to the **GitHub Pages** section to access the link to the deployed website.
 
-For this project, local deployment was not required.
-
 ### Run this project locally
 - Select the Repository from the GitHub Dashboard.
 - Click the green button labelled 'Code'.
@@ -241,11 +239,11 @@ For this project, local deployment was not required.
 The texts for all the pages have been created by the designer. 
 
 ## Media 
-The images were taken by and obtained from the designer – Sara Namdarian. 
+* The images were taken by and obtained from the designer – Sara Namdarian. 
+* Testimonial logos are from [Google Images](https://www.google.com/imghp?hl=en).
 
 ## Code 
 * CSS code for shadows and hover responsiveness of gallery images was originally taken from [Portrait Artist](https://ajgreaves.github.io/portrait-artist/index.html) by A Greaves. 
-
 
 # Acknowledgement 
 I decided to develop this website for my sister as she wanted to have a brand new website which has a more modern feel to it and it also reflected her own style and character. I took aspiration for this site from the following websites in terms of design: 
