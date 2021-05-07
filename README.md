@@ -144,7 +144,14 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 # Testing 
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
+##COMBATIBILITY
+To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
 
+* Chrome
+* Edge
+* Firefox
+* Safari
+* Internet Explorer
 
 # Further testing
 I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap paadding and margin and CSS media queries to make the website responsive on all devices. 
@@ -181,6 +188,5 @@ I decided to develop this website for my sister as she wanted to have a brand ne
 * [Avissa Design](https://avissadesign.com/press)
 * [sokruta.com.ua/en](https://sokruta.com.ua/en)
 * I also received inspirations for the content of the website for personal branding via [Interior Design Business: How To Build a Personal Brand](https://essenziale-hd.com/2017/10/02/interior-design-business-build-personal-brand/).
-* [Bootsnip.com](https://bootsnipp.com/snippets/g5XDo#comments) I was inspired by the code on this snippet which was written in Bootsnip 3.1.0. I used Bootstrap5 to create a similar laypit for the website's header and menubar. 
 * Huge thanks to my mentor [Guido Cecilio Garcia Bernal](https://github.com/guidocecilio) guided me throughout this project.
 * I would like to also thank [Tim Nelson](https://github.com/TravelTimN), a great tutor at Code Institude, who helped me with problem solving. 
