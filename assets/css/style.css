@@ -83,7 +83,10 @@
     font-size: 36px;
     margin-bottom: 0;
 }
-
+.logo a {
+ text-decoration: none;
+ color: var(--Black);
+}
 .navbar-toggler:focus {
     box-shadow: unset;
 }
