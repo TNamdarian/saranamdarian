@@ -235,6 +235,10 @@ form.contact-form textarea::placeholder,
 form.contact-form small #emailHelp{
     color: var(--lightgrey)
 }
+.white-title {
+    color: var(--White);
+    margin-bottom: 25px;
+}
 input#email.text-input {
     margin-bottom: 5px;
 }
