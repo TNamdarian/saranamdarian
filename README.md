@@ -41,13 +41,12 @@ The project help clients to:
 
 ### User stories: 
 1.	As a new visitor, I want to easily navigate the site to find whether the designer the right fit for my needs. 
-2.	As a business/home owner, I would like to find whether the designer is trustworthy and reputable by seeing what the previous clients say about them 
+2.	As a business/home owner, I would like to find whether the designer is trustworthy and reputable by seeing what the previous clients say about them. 
 3.	As a new visitor, I would like to learn more about the designer’s vision, so I can get to know their background better. I would also like to know the reasons how this designer stands out of the crowd. 
-4.	As a potential customer, I would always like to see what the previous clients say about this business. I would like to know if their needs and expectations were met to high standards. 
-5.	As a new visitor, I would like to know the designer’s process and approach to their clients and projects. I would like to work with approachable designers and have a clear picture of what I should expect.  
-6.	As an interested client, I want to be able to contact the designer easily. 
-7.	As a potential client, I would like to learn more about the designers’ works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.  
-8.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the designer.
+4.	As a new visitor, I would like to know the designer’s process and approach to their clients and projects. I would like to work with approachable designers and have a clear picture of what I should expect.  
+5.	As an interested client, I want to be able to contact the designer easily. 
+6.	As a potential client, I would like to learn more about the designers’ works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.  
+7.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the designer.
 
 ### Scope
 To achieve the strategic goals, I included the following features in the website: 
@@ -142,6 +141,21 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 -	[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
 
 # Testing 
+## Testing client stories from UX section of README.md
+1.	As a new visitor, I want to easily navigate the site to find whether the designer the right fit for my needs.
+⋅⋅1. The user can navigate through the website using the navbar menu on top of the page. 
+⋅⋅2. The **logo** links the user back to the Home Page. 
+⋅⋅3. The **4 reasons** on Home Page provide more information about the designer to the users. 
+⋅⋅4. The **call to action button** takes the users to the contact page where they can get more information on how to contact the designer. 
+
+2.	As a business/home owner, I would like to find whether the designer is trustworthy and reputable by seeing what the previous clients say about them.
+--  On the work page, below the gallery the users can see the previous clients’ **testimonials**. 
+
+3.	As a new visitor, I would like to learn more about the designer’s vision, so I can get to know their background better. I would also like to know the reasons how this designer stands out of the crowd. 
+-- The **4 reasons** on Home Page provide more information about the designer to the users. 
+-- The **galley** on Work Page will show the designer’s range of skills. 
+
+
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
 Several issues were identified on **W3C Markup Validation**. 
