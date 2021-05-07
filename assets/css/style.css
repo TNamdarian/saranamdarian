@@ -364,6 +364,7 @@ ul {
         font-size: 18px;
         line-height: normal;
     }
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -374,9 +375,9 @@ ul {
 }
 
 /* Disable parallax images scrolling for small tablets and phones */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1399px) {
     .parallax {
-        background-attachment: local;
+        background-attachment: scroll;
     }
 }
 
