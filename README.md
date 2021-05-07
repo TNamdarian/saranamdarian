@@ -169,10 +169,6 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 7. As a returning visitor to the website, I want to be able to find the contact page easily to reach the designer.
 - The **phone number** and **address** of the designer has been shared in the footer on every page. 
 
-
-
-
-
 ## Code validation 
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
@@ -216,7 +212,7 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 2. From the list of repositories on the screen, **select saranamdarian**.
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
-5. Under Source click the drop-down menu labelled None and select **Main Branch**. Then **Save** it. 
+5. Under Source click the drop-down menu labelled None and select **Master Branch**. Then **Save** it. 
 6. WAit for a few minutes of the website to be deployed.
 7. Scroll back down to the **GitHub Pages** section to access the link to the deployed website.
 
