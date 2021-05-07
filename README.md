@@ -125,16 +125,18 @@ This project uses HTML and CSS programming languages.
 -	[Balsamiq](https://balsamiq.cloud/sxrt5co/pf4f2oo) I used Balsamiq, the rapid low-fidelity UI wireframing tool to sketch the structure of the website layout and its pages following best UX practices.
 -	[Gitpod](https://gitpod.io/workspaces)- The developer used Gitpod to write the code to builds the website.
 -	[GitHub](https://github.com/) - The project used GitHub to host my code that was created and pushed from GitPod.
--	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive easily. 
+-	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive across various platforms.
 -   [FontAwesome](https://fontawesome.com/) - The projects uses a few icons from FontAwesome to make the websites less wordy and more visually appealing. 
 -	[fancybox](https://fancyapps.com/fancybox/3/) The project uses Fancybox for a gallery modal popup to slideshow gallery images.
+-    [jQuery](https://jquery.com/) The project used jQuery to supply to Javascript linked needed to the fancybox gallery. 
+The project uses jQuery to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
 -	[Google Fonts](https://fonts.google.com/) The project uses Google fonts to style the website fonts.
 -   [Tiny-PNG](https://tinypng.com/) The big images up to 5M needed to be compressed to improve the website's loading time. 
 -   [CompressJPEG](https://compressjpeg.com/) The big images bigger than 5M needed to be compressed to improve the website's loading time.
 -	[Webaim.org](https://webaim.org/) The Webaim was used to test for colour contrast on the project.
 -	[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) The W3C Markup Validation Service checked the markup validity of Web documents in HTML.
 -	[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) W3C CSS Validation Service was used to check the validity of my CSS in the project.
--	[WAVE Web Accessibility Evaluation Tool]()I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
+-	[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
 
 # Testing 
 
@@ -145,14 +147,20 @@ This project uses HTML and CSS programming languages.
 # Credits
 ## Content
 The texts for all the pages have been created by the designer. 
+
 ## Media 
 The images were taken by and obtained from the designer – Sara Namdarian. 
+
 ## Code 
+* CSS code for shadows and hover responsiveness of gallery images was originally taken from [Portrait Artist](https://ajgreaves.github.io/portrait-artist/index.html) by A Greaves. 
+
 
 # Acknowledgement 
 I decided to develop this website for my sister as she wanted to have a brand new website which has a more modern feel to it and it also reflected her own style and character. I took aspiration for this site from the following websites in terms of design: 
-* [Karimrashid.com]( http://karimrashid.com/)
-* [Avissa Design]( https://avissadesign.com/press)
+* [Karimrashid.com](http://karimrashid.com/)
+* [Avissa Design](https://avissadesign.com/press)
 * [sokruta.com.ua/en](https://sokruta.com.ua/en)
 * I also received inspirations for the content of the website for personal branding via [Interior Design Business: How To Build a Personal Brand](https://essenziale-hd.com/2017/10/02/interior-design-business-build-personal-brand/).
 * [Bootsnip.com](https://bootsnipp.com/snippets/g5XDo#comments) I was inspired by the code on this snippet which was written in Bootsnip 3.1.0. I used Bootstrap5 to create a similar laypit for the website's header and menubar. 
+* My mentor Guido Cecilio Garcia Bernal guided me throughout this project.
+* I would also thank Tim Nelson, a great tutor at Code Institude, who helped me with problem solving. 

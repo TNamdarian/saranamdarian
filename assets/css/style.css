@@ -187,20 +187,18 @@ P {
 }
 
 /* --------------------------------------------------Work page/gallery images */
-
+/* the following two styling css code have been wrotten by A Greaves.  */
+/* code credit: https://github.com/AJGreaves/portrait-artist/blob/master/assets/css/style.css */
 .gallery-thumbnail {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     border-radius: 5px;
-    /*this code added by me*/
 }
 
 /* creates pleasing illusion of hovered image being raised up from the screen */
-/* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
 .gallery-thumbnail:hover {
-    /*width and height of hover shadow changed by me*/
     -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
@@ -234,8 +232,14 @@ P {
 /* --------------------------------------------------Contact and form sections */
 form.contact-form input::placeholder,
 form.contact-form textarea::placeholder,
-form.contact-form small #emailHelp #emailhelp {
+form.contact-form small #emailHelp{
     color: var(--lightgrey)
+}
+input#email.text-input {
+    margin-bottom: 5px;
+}
+.form-group{
+    margin: 10px 0;
 }
 
 .contact-me h1,
@@ -291,7 +295,6 @@ form.contact-form small #emailHelp #emailhelp {
     height: 800px;
     padding-top: 30px;
 }
-
 
 /* --------------------------------------------------Footer */
 
