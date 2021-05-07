@@ -143,31 +143,31 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 # Testing 
 ## Testing client stories from UX section of README.md
 1.	As a new visitor, I want to easily navigate the site to find whether the designer the right fit for my needs.
-- The user can navigate through the website using the navbar **menu** on top of the page. 
-- The **logo** links the user back to the Home Page. 
-- The **4 reasons** on **Home Page** provide more information about the designer to the users. 
-- The **call to action button** takes the users to the contact page where they can get more information on how to contact the designer. 
+    - The user can navigate through the website using the navbar **menu** on top of the page. 
+    - The **logo** links the user back to the Home Page. 
+    - The **4 reasons** on **Home Page** provide more information about the designer to the users. 
+    - The **call to action button** takes the users to the contact page where they can get more information on how to contact the designer. 
 
 2.	As a business/home owner, I would like to find whether the designer is trustworthy and reputable by seeing what the previous clients say about them.
--  On the **Work Page**, below the gallery the users can see the previous clients’ **testimonials**. 
+    - On the **Work Page**, below the gallery the users can see the previous clients’ **testimonials**. 
 
 3.	As a new visitor, I would like to learn more about the designer’s vision, so I can get to know their background better. I would also like to know the reasons how this designer stands out of the crowd. 
-- The **4 reasons** on **Home Page** provide more information about the designer to the users. 
-- The **gallery** on Work Page will show the designer’s range of skills. 
+    - The **4 reasons** on **Home Page** provide more information about the designer to the users. 
+    - The **gallery** on Work Page will show the designer’s range of skills. 
 
 4.	As a new visitor, I would like to know the designer’s process and approach to their clients and projects. I would like to work with approachable designers and have a clear picture of what I should expect.  
-- In **Contact Page**, users can review the consultations process and have a realistic idea of a **Project Timeline**. 
+    - In **Contact Page**, users can review the consultations process and have a realistic idea of a **Project Timeline**. 
 
 5. As an interested client, I want to be able to contact the designer easily. 
-- In **Contact Page**, users can fill up the **Contact Form**.
-- Each page, has a call to action button which takes users to the **Contact Page** to view the relevant information.
+    - In **Contact Page**, users can fill up the **Contact Form**.
+    - Each page, has a call to action button which takes users to the **Contact Page** to view the relevant information.
 
 6. As a potential client, I would like to learn more about the designers’ works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.  
-- The galley on **Work Page** showcases the designer’s range of skills and projects. 
-- The **Footer** provides links to the designer's **social media** platforms. 
+    - The galley on **Work Page** showcases the designer’s range of skills and projects. 
+    - The **Footer** provides links to the designer's **social media** platforms. 
 
 7. As a returning visitor to the website, I want to be able to find the contact page easily to reach the designer.
-- The **phone number** and **address** of the designer has been shared in the footer on every page. 
+    - The **phone number** and **address** of the designer has been shared in the footer on every page. 
 
 ## Code validation 
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
