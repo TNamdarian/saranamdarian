@@ -139,6 +139,12 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 -	[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
 
 # Testing 
+I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
+
+
+
+# Further testing
+I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap paadding and margin and CSS media queries to make the website responsive on all devices. 
 
 # Deployment 
 This project was developed using [Gitpod](https://gitpod.io/workspaces), committed to git and pushed to GitHub using git commands. 
