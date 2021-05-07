@@ -149,11 +149,11 @@ P {
 }
 
 #parallax1 {
-    background-image: url("../images/parallax/Hotel-bar-parallax-image1.jpg");
+    background-image: url("../images/parallax/hotel-bar-parallax-image1.jpg");
 }
 
 #parallax2 {
-    background-image: url("../images/parallax/Food-court-parallax-image2.jpg");
+    background-image: url("../images/parallax/food-court-parallax-image2.jpg");
 }
 
 #parallax3 {
@@ -173,7 +173,7 @@ P {
 }
 
 #parallax7 {
-    background-image: url("../images/parallax/Bird-view-landscape-parallax-image6.jpg");
+    background-image: url("../images/parallax/bird-view-landscape-parallax-image6.jpg");
 }
 
 
@@ -246,9 +246,10 @@ input#email.text-input {
     margin: 10px 0;
 }
 
-.contact-me h1,
-#consultation h1 {
+.contact-me h2 {
     padding-bottom: 10px;
+    font-size: 44px;
+    font-weight: 400;
 }
 
 .btn {
@@ -293,7 +294,7 @@ input#email.text-input {
 }
 
 .form-section {
-    background: url("../images/parallax/Hotel-lobby-parallax-image5.jpg");
+    background: url("../images/parallax/hotel-lobby-parallax-image5.jpg");
     background-size: cover;
     background-position: center;
     height: 800px;
