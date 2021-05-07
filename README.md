@@ -144,7 +144,14 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 # Testing 
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
-##COMBATIBILITY
+## Color Contrast 
+The [Color Contrast Accessibility Validator](https://webaim.org/) was used to test for colour contrast on the project.
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/Contrast-checker.png). 
+The initial `color: ##81b214;` had very low contrast with the white background. So I changed it to a darker green. 
+
+
+
+## COMBATIBILITY
 To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
 
 * Chrome
@@ -152,6 +159,9 @@ To ensure a broad range of users can successfully view/use the site, I tested it
 * Firefox
 * Safari
 * Internet Explorer
+
+## Issues
+The link on **Internet Explorer** does not recognise `font-antonio`. It diplays the web using `San-sarif`. 
 
 # Further testing
 I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap paadding and margin and CSS media queries to make the website responsive on all devices. 
