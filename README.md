@@ -144,6 +144,7 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 ## Testing client stories from UX section of README.md
 1.	As a new visitor, I want to easily navigate the site to find whether the designer the right fit for my needs.
     - The user can navigate through the website using the navbar **menu** on top of the page. 
+    ![alt text](../images/readme-images/menubar.png)
     - The **logo** links the user back to the Home Page. 
     - The **4 reasons** on **Home Page** provide more information about the designer to the users. 
     - The **call to action button** takes the users to the contact page where they can get more information on how to contact the designer. 
