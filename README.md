@@ -164,7 +164,7 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 
 6. As a potential client, I would like to learn more about the designers’ works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.  
 - The galley on **Work Page** showcases the designer’s range of skills and projects. 
-- The **Footer** provides links to the designer's social media platforms. 
+- The **Footer** provides links to the designer's **social media** platforms. 
 
 7. As a returning visitor to the website, I want to be able to find the contact page easily to reach the designer.
 - The **phone number** and **address** of the designer has been shared in the footer on every page. 
@@ -173,7 +173,7 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 
 
 
-
+## Code validation 
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
 Several issues were identified on **W3C Markup Validation**. 
