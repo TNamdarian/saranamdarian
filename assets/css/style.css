@@ -92,6 +92,8 @@
 }
 
 /* --------------------------------------------------Containers */
+/* the following styling css code have been wrotten by A Greaves.  */
+/* code credit: https://github.com/AJGreaves/portrait-artist/blob/master/assets/css/style.css */
 .consultation-container {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -182,7 +184,7 @@ P {
     margin-top: 60px;
 }
 
-.feature-title {
+.reason-title {
     font-size: 1.5rem;
 }
 
@@ -388,14 +390,14 @@ ul {
     }
 }
 
-/* Disable parallax images scrolling for small tablets and phones */
+/* Disable parallax images scrolling for ipads and phones */
 @media only screen and (max-width: 1399px) {
     .parallax {
         background-attachment: scroll;
     }
 }
 
-/* Make the designer-image centred in small break points */
+/* Make the designer-image centred in smaller break points */
 @media only screen and (min-width: 1024px) {
     #image {
         padding-left: 30px;
@@ -413,7 +415,7 @@ ul {
 
 /* Make the features-title font smaller iin smaller devices.  */
 @media only screen and (max-width: 1400px) {
-    .feature-title {
+    .reason-title {
         font-size: 1rem;
     }
 }

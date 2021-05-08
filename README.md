@@ -264,7 +264,7 @@ The texts for all the pages have been created by the designer.
 * Testimonial logos are from [Google Images](https://www.google.com/imghp?hl=en).
 
 ## Code 
-* CSS code for shadows and hover responsiveness of gallery images was originally taken from [Portrait Artist](https://ajgreaves.github.io/portrait-artist/index.html) by A Greaves. 
+* CSS code for shadows and hover responsiveness of gallery images and ptoject timeline boxes was originally taken from [Portrait Artist](https://ajgreaves.github.io/portrait-artist/index.html) by A Greaves. 
 
 # Acknowledgement 
 I decided to develop this website for my sister as she wanted to have a brand new website which has a more modern feel to it and it also reflected her own style and character. I took aspiration for this site from the following websites in terms of design: 
