@@ -7,9 +7,9 @@
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/am-i-responsive.png)  
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
-This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, 'ethos','call for action', ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, 'designer's contact details' and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
+This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, 'ethos', 'call for action', ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, 'designer's contact details' and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
 
-As interior design is a long and costly process, it will take time for new clients to make informed decisions about the designer they would like to hire. Therefore, the website aims to provide useful information, showcase the designers’ portfolio, and share the previous clients’ testimonials to build trust with potential clients. A realistic project timeline is also communicated with users on the contact page to show various stages of the consultation process from the beginning to the completion of a project. 
+As interior design is a long and costly process, it will take time for new clients to make informed decisions about the designer they would like to hire. Therefore, the website aims to provide useful information, showcasing the designers’ portfolio, and sharing the previous clients’ testimonials to build trust with potential clients. A realistic project timeline is also communicated with users on the contact page to show various stages of the consultation process from the beginning to the completion of a project. 
 
 The business goals of this website are:
 * Increase brand awareness.
@@ -57,11 +57,11 @@ To achieve the strategic goals, I included the following features in the website
 * Portfolio highlighting the projects the designer has completed. 
 * Testimonials including the name of clients and their experience. 
 * Consultation process from the initial phone conversation to project completion. 
-* Contact Form to allow contacting the designer to request a collaboration. 
+* Consultation Form to allow users contact the designer to request a collaboration. 
 * Footer containing the designer's address, phone number and links to her social media and email.
 
 ## Skeleton 
-The website consists of 3 pages; Home (introduces the designer and her approach to design),  Work (showcasing the designer’s completed and current projects), Contact page (including consultation stages and a consultation form). 
+The website consists of three pages; Home (introduces the designer and her approach to design),  Work (showcasing the designer’s completed and current projects), and Contact (including consultation stages and a consultation form). 
 
 ### Wireframe Mockups: 
 * [Home](https://share.balsamiq.com/c/tQRnpMCDJFQxp9gezXZ22C.png)
@@ -83,18 +83,18 @@ There is also a **Top** button which with one click it takes the user to the men
 The Home page features an **image of the designer** to personalise the website and raise brand awareness. To the left side of the image, there is some information about the designer to make the users feel connected to the brand. 
 At the bottom of these, the **designer’s’ visions and ethos** are presented. This helps the users to be able to make an informed decision whether they share the same values as the designer with regards to design concepts. It will enhance user’s emotional response. 
 Finally, there is an invitation to have a chat about the user’s project via a **call to action** button: *Book your free consultation session now!*. 
-The Home page also has **four parallax features** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
+The Home page also uses **parallax effects** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
 
 ### Work
 The Work page features **images in thumbnails** in 4 columns wide for laptop and desktop devices, 2 for iPads and 1 column wide for mobile devices.
 Each image can be clicked to open a **fancybox** window to view further images/details of each project. 
 The **testimonials** are placed below the project works to build trust and credibility and accountability of the designer. 
 At the bottom of the page, there is an invitation to have a chat about the user’s project via a **call to action** button: *Book your free consultation session now!*. 
-The Work page also has **two parallax features** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
+The Work page also uses **parallax effects** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
 
 ### Contact  
 The contact page features the **consultation stages**. Each stage is warped in a box with a large icon and some description to inform the users of collaboration process. 
-Then, there will be a **contact form** which the user can fill up to reach the designer laying over a **promotional image**. 
+Then, there will be a **Consultation Form** which the user can fill up to reach the designer laying over a **promotional image**. 
 The bottom of the form contains a **Book your free consultation now!** button.  
 
 # Existing Features 
@@ -109,7 +109,7 @@ The bottom of the form contains a **Book your free consultation now!** button.
 * Testimonials – Exist in the Home page in a form of Carousel slides to confirm the designer’s credibility and build trust amongst users. 
 * Call to Action Buttons – Exist on every page and invites potential clients to make the first contact with the designer. 
 * Consultation Stages – Exist on the Contact page aiming to familiarise the users with the designer’s method of working and the stages involved in a project work. 
-* [Contact Page](https://tnamdarian.github.io/saranamdarian/contact.html) – Provides consultation stages and a contact form. It allows the clients to send their request for their free consultation session. 
+* [Contact Page](https://tnamdarian.github.io/saranamdarian/contact.html) – Provides consultation stages and a consultation form. It allows the clients to send their request for a free consultation session. 
 
 # Features to Implement in future
 Due to time restraints, I was unable to include the following features but hope to implement them in a future release:
@@ -130,11 +130,11 @@ This project uses HTML and CSS programming languages.
 -	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive across various platforms.
 -   [FontAwesome](https://fontawesome.com/) - The projects uses a few icons from FontAwesome to make the websites less wordy and more visually appealing. 
 -	[Fancybox](https://fancyapps.com/fancybox/3/) The project uses Fancybox for a gallery modal popup to slideshow gallery images.
--   [jQuery](https://jquery.com/) The project used jQuery to supply to JavaScript linked needed to the fancybox gallery. 
+-   [jQuery](https://jquery.com/) The project used jQuery to supply to JavaScript linked needed to the Fancybox gallery. 
 -	[Google Fonts](https://fonts.google.com/) The project uses Google fonts to style the website fonts.
--   [Tiny-PNG](https://tinypng.com/) The big images up to 5M needed to be compressed to improve the website's loading time. 
+-   [Tiny-PNG](https://tinypng.com/) I used tinypng for big images up to 5M needed to be compressed to improve the website's loading time. 
 -   [CompressJPEG](https://compressjpeg.com/) The big images bigger than 5M needed to be compressed to improve the website's loading time.
--	[Webaim.org](https://webaim.org/) The Webaim was used to test for colour contrast on the project.
+-	[Webaim.org](https://webaim.org/) The Webaim was used to test colour contrast on the project.
 -	[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) The W3C Markup Validation Service checked the markup validity of Web documents in HTML.
 -	[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) W3C CSS Validation Service was used to check the validity of my CSS in the project.
 -	[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
@@ -162,7 +162,7 @@ This project uses HTML and CSS programming languages.
 
 3.	As a new visitor, I would like to learn more about the designer’s vision, so I can get to know their background better. I would also like to know the reasons how this designer stands out of the crowd. 
     - The **4 reasons** on **Home Page** provide more information about the designer to the users. 
-    - The **gallery** on Work Page will show the designer’s range of skills. 
+    - The **gallery** on **Work Page** will show the designer’s range of skills. 
 
     ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/gallery.png)
 
@@ -191,20 +191,23 @@ This project uses HTML and CSS programming languages.
 I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
 
 Several issues were identified on **W3C Markup Validation**. 
+
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/html-erros-contact-page.png)
+
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/aria-lebel-footer.png)
+
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/images-error.png)
 
 After I rectified the issue, no further errors were picked. 
 
 No errors were identified in the CSS code by **W3C CSS validation**. 
+
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/clean.css.png)
 
 ## Color Contrast 
-The [Color Contrast Accessibility Validator](https://webaim.org/) was used to test for colour contrast on the project.
-![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/contrast-checker.png). 
+The initial `color: ##81b214;` had Contrast Ratio of 2.52:1 with the white background. So I changed it to a darker green. The [Color Contrast Accessibility Validator](https://webaim.org/) was used to test for colour contrast on the project.
 
-The initial `color: ##81b214;` had Contrast Ratio of 2.52:1 with the white background. So I changed it to a darker green. 
+![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/contrast-checker.png). 
 
 ## COMPATIBILITY
 To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
