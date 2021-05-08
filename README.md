@@ -7,7 +7,7 @@
 ![alt text](https://github.com/TNamdarian/saranamdarian/blob/master/assets/images/readme-images/am-i-responsive.png)  
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
-This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, 'ethos''call for action', ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, 'designer's contact details' and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
+This is a full-fledge website for an interior designer based in Vancouver, Canada. The website features ‘about the designer’, 'ethos','call for action', ‘testimonials’, ‘the designer’s portfolio’, ‘consultation process’, ‘contact form’, 'designer's contact details' and ‘social media links’. The objective of this projects is to generate leads for the business through the contact page. 
 
 As interior design is a long and costly process, it will take time for new clients to make informed decisions about the designer they would like to hire. Therefore, the website aims to provide useful information, showcase the designers’ portfolio, and share the previous clients’ testimonials to build trust with potential clients. A realistic project timeline is also communicated with users on the contact page to show various stages of the consultation process from the beginning to the completion of a project. 
 
@@ -19,13 +19,13 @@ The business goals of this website are:
 * Create realistic expectations of the design process and establish smooth designer-client relationship. 
 
 The customer visit this website to:
-* Search for a reliable and skillful interior designer to enhance their living and/or working environments. 
+* Search for a reliable and skilful interior designer to enhance their living and/or working environments. 
 * Have enough compelling and convincing evidence that this designer is the right fit for their project. 
 * Find the contact information effortlessly by filling up a form to hire the designer. 
 * Understand how the design process works and what the time scale is. 
 
 # UX
-Most designer websites increase the cognitive load on the user which might make the users feel intimidated or overwhelmed. My aim was to create a simple website where the information is accessible effortlessly. Deciding to renovate living or working spaces is a difficult task; it is time-consuming, complex and expensive. Therefore, people might delay it until they can find someone who they can rely on. I want the design and content of the website to make this decision making process easier for potencial clients. 
+Most designer websites increase the cognitive load on the user which might make the users feel intimidated or overwhelmed. My aim was to create a simple website where the information is accessible effortlessly. Deciding to renovate living or working spaces is a difficult task; it is time-consuming, complex and expensive. Therefore, people might delay it until they can find someone who they can rely on. I want the design and content of the website to make this decision making process easier for potential clients. 
 
 ### Ideal client 
 The ideal client for this business is: 
@@ -51,7 +51,7 @@ The project help clients to:
 ### Scope
 To achieve the strategic goals, I included the following features in the website: 
 * Header containing designer's logo and the menu bar including Home, Work, and Contact.
-* Home page which says about the deginer for brand awareness. 
+* Home page which says about the designer for brand awareness. 
 * Company ethos detailing the designers’ style. 
 * Call for action button on every page. 
 * Portfolio highlighting the projects the designer has completed. 
@@ -69,28 +69,28 @@ The website consists of 3 pages; Home (introduces the designer and her approach 
 * [Contact](https://share.balsamiq.com/c/tcT217VdfK6RTCJ52Sd5fY.png)
 
 ## Surface 
-The logo and a callapsing menu bar are centred in the header incorporating black and white colours to represent a sleek and modern feel in keeping with the brand. This colour coordination is seen throughout the body of the website with dark typography to represent a minimalist yet bold styles.  The designer has chosen green colour for specific features such as hover over the menu items, call to action buttons, and social media icons to represent the sustainability in her designs. The combination of natural and green colours convey a sense of creativity and confidence which reflects the designer’s personality. I also tried to use bold typography to further promote confidence and creativity as a reflection of the industry. 
+The logo and a collapsing menu bar are centred in the header incorporating black and white colours to represent a sleek and modern feel in keeping with the brand. This colour coordination is seen throughout the body of the website with dark typography to represent a minimalist yet bold styles.  The designer has chosen green colour for specific features such as hover over the menu items, call to action buttons, and social media icons to represent the sustainability in her designs. The combination of natural and green colours convey a sense of creativity and confidence which reflects the designer’s personality. I also tried to use bold typography to further promote confidence and creativity as a reflection of the industry. 
 
 # Features 
 ### Header
 The website consists of three pages; Home, Work and Contact. The **header** contains a **logo** and **menu** option on the top middle of every page.  This will create consistency throughout the page and the user can access the information via the menu bar and move around the site. The links will remain active when in use. 
 
 ### Footer
-Every page has a **footer** with **desginer's address**, **designer's phone number**, **social media and email icons** and **copyright information**. The social media icons are linked to the users’ social media accounts. 
+Every page has a **footer** with **designer's address**, **designer's phone number**, **social media and email icons** and **copyright information**. The social media icons are linked to the users’ social media accounts. 
 There is also a **Top** button which with one click it takes the user to the menu bar. 
 
 ### Home
 The Home page features an **image of the designer** to personalise the website and raise brand awareness. To the left side of the image, there is some information about the designer to make the users feel connected to the brand. 
 At the bottom of these, the **designer’s’ visions and ethos** are presented. This helps the users to be able to make an informed decision whether they share the same values as the designer with regards to design concepts. It will enhance user’s emotional response. 
 Finally, there is an invitation to have a chat about the user’s project via a **call to action** button: *Book your free consultation session now!*. 
-The Home page also has **four parallax featuers** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
+The Home page also has **four parallax features** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
 
 ### Work
 The Work page features **images in thumbnails** in 4 columns wide for laptop and desktop devices, 2 for iPads and 1 column wide for mobile devices.
 Each image can be clicked to open a **fancybox** window to view further images/details of each project. 
 The **testimonials** are placed below the project works to build trust and credibility and accountability of the designer. 
 At the bottom of the page, there is an invitation to have a chat about the user’s project via a **call to action** button: *Book your free consultation session now!*. 
-The Work page also has **two parallax featuers** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
+The Work page also has **two parallax features** to separate each section and create positive user response. These features will turn into images which scroll up and down with the rest of the page for iPads and phones. 
 
 ### Contact  
 The contact page features the **consultation stages**. Each stage is warped in a box with a large icon and some description to inform the users of collaboration process. 
@@ -99,7 +99,7 @@ The bottom of the form contains a **Book your free consultation now!** button.
 
 # Existing Features 
 * Header Logo – Exists on every page aiming to promote brand awareness. Clicking on the logo will return the users to the Home page as they expect. 
-* Header Navigation Bar – Exists on every page to allow users to navigate the website and move from one page to another for acces to more information. 
+* Header Navigation Bar – Exists on every page to allow users to navigate the website and move from one page to another for access to more information. 
 * [Home Page](https://tnamdarian.github.io/saranamdarian/) – Is a short introduction of the designer using visuals, a short biography of the designer and her ethos. 
 * Designer Photo – Exists on the Home page accompanied by a short biography of the designer. 
 * [Work Page](https://tnamdarian.github.io/saranamdarian/work.html) – It showcases the designers works and allows the visitors to view the thumbnail images of the designer’s works. Each image is clickable and can be viewed in a new page. 
@@ -117,7 +117,7 @@ Due to time restraints, I was unable to include the following features but hope 
 * Promotional video on the homepage – To make the homepage more appealing and engaging and create a more positive emotional response to the user. There was no promotional video available as this stage. 
 * Designer’s blog to share educational articles and guides for added value. The designer has not had time to create a blog yet.  
 * Live Chat app - To provide an instant connection between the user and company with high visibility on the site. I do not have the skills yet. 
-* Add CAPTCHA to contact form – Allows business to protect the contact form from spam.  – Javascript Needed.
+* Add CAPTCHA to contact form – Allows business to protect the contact form from spam.  – JavaScript Needed.
 * FAQ page, table with FAQs and dropdown buttons to view answers - Helps potential clients find answers to their common questions. (The designer has to compile and provide a list in the future.)
 * Option to choose the language of the website - As the artist's second language is Farsi, this would allow Farsi speaking visitors to the website who form a big population in Vancouver, to view it in their native language. The content was not ready at this stage.
 * Add a download button for a white paper for digital marketing purposes and building an email list in the future. The content was not ready at this stage. 
@@ -129,9 +129,8 @@ This project uses HTML and CSS programming languages.
 -	[GitHub](https://github.com/) - The project used GitHub to host my code that was created and pushed from GitPod.
 -	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive across various platforms.
 -   [FontAwesome](https://fontawesome.com/) - The projects uses a few icons from FontAwesome to make the websites less wordy and more visually appealing. 
--	[fancybox](https://fancyapps.com/fancybox/3/) The project uses Fancybox for a gallery modal popup to slideshow gallery images.
--    [jQuery](https://jquery.com/) The project used jQuery to supply to Javascript linked needed to the fancybox gallery. 
-The project uses jQuery to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
+-	[Fancybox](https://fancyapps.com/fancybox/3/) The project uses Fancybox for a gallery modal popup to slideshow gallery images.
+-   [jQuery](https://jquery.com/) The project used jQuery to supply to JavaScript linked needed to the fancybox gallery. 
 -	[Google Fonts](https://fonts.google.com/) The project uses Google fonts to style the website fonts.
 -   [Tiny-PNG](https://tinypng.com/) The big images up to 5M needed to be compressed to improve the website's loading time. 
 -   [CompressJPEG](https://compressjpeg.com/) The big images bigger than 5M needed to be compressed to improve the website's loading time.
@@ -217,10 +216,10 @@ To ensure a broad range of users can successfully view/use the site, I tested it
 * Internet Explorer
 
 ## Issues
-The link on **Internet Explorer** does not recognise `font-antonio`. It diplays the web using `San-sarif`. 
+The link on **Internet Explorer** does not recognise `font-antonio`. It displays the web using `San-sarif`. 
 
 # Further testing
-I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap paadding and margin and CSS media queries to make the website responsive on all devices. 
+I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap padding and margin and CSS media queries to make the website responsive on all devices. 
 
 # Deployment 
 This project was developed using [Gitpod](https://gitpod.io/workspaces), committed to git and pushed to GitHub using git commands. 
@@ -232,7 +231,7 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
 5. Under Source click the drop-down menu labelled None and select **Master Branch**. Then **Save** it. 
-6. WAit for a few minutes of the website to be deployed.
+6. Wait for a few minutes of the website to be deployed.
 7. Scroll back down to the **GitHub Pages** section to access the link to the deployed website.
 
 ### Run this project locally
@@ -271,4 +270,4 @@ I decided to develop this website for my sister as she wanted to have a brand ne
 * [sokruta.com.ua/en](https://sokruta.com.ua/en)
 * I also received inspirations for the content of the website for personal branding via [Interior Design Business: How To Build a Personal Brand](https://essenziale-hd.com/2017/10/02/interior-design-business-build-personal-brand/).
 * Huge thanks to my mentor [Guido Cecilio Garcia Bernal](https://github.com/guidocecilio) guided me throughout this project.
-* I would like to also thank [Tim Nelson](https://github.com/TravelTimN), a great tutor at Code Institude, who helped me with problem solving. 
+* I would like to also thank [Tim Nelson](https://github.com/TravelTimN), a great tutor at Code Institute, who helped me with problem solving. 
