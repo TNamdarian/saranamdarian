@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Icon -->
     <link rel="icon" href="assets/favicon.ico">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script type="text/javascript">
         (function() {
             emailjs.init("user_PA3PdjeLVxah4GiqbbCmT");
@@ -147,18 +147,13 @@
                     <form onsubmit="return sendMail(this);" class="contact-form" target="_blank">
                         <h2 class="white-title">Consultation Form</h2>
                         <div class="form-group md-1">
-                            <label for="fname">First Name</label>
-                            <input class="text-input" id="fname" type="text" name="first_name" placeholder="First name"
-                                required>
-                        </div>
-                        <div class="form-group md-1">
-                            <label for="lname">Last Name</label>
-                            <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last name"
+                            <label for="fname">Full Name</label>
+                            <input class="text-input" id="fname" type="text" name="name" placeholder="Full name"
                                 required>
                         </div>
                         <div class="form-group md-1">
                             <label for="email">Email Address</label>
-                            <input class="text-input" id="email" type="email" name="email_address"
+                            <input class="text-input" id="email" type="email" name="emailaddress"
                                 placeholder="email@address.com" required>
                             <small id="emailHelp">
                                 I will never share your email with anyone else.
